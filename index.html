@@ -2,66 +2,5467 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jira</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <title>Parallel Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .table-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Parallel Tables Example</h1>
+    <div class="table-container">
+        <!-- Table 1 -->
+        <div>
+            <div class="table-title">Table-499</div>
+            <table>
+              <!-- 499 -->
+                  <tbody>
+                  <tr>
+                  <td width="33">S. No</td>
+                  <td width="168">Channel Name</td>
+                  <td width="90">Channel Number</td>
+                  </tr>
+                  <tr>
+                  <td width="33">1</td>
+                  <td width="168">DD NATIONAL HD</td>
+                  <td width="90">110</td>
+                  </tr>
+                  <tr>
+                  <td width="33">2</td>
+                  <td width="168">DANGAL</td>
+                  <td width="90">146</td>
+                  </tr>
+                  <tr>
+                  <td width="33">3</td>
+                  <td width="168">DILLAGI</td>
+                  <td width="90">149</td>
+                  </tr>
+                  <tr>
+                  <td width="33">4</td>
+                  <td width="168">MANORANJAN GRAND</td>
+                  <td width="90">150</td>
+                  </tr>
+                  <tr>
+                  <td width="33">5</td>
+                  <td width="168">SAMAY SAHARA ONE</td>
+                  <td width="90">152</td>
+                  </tr>
+                  <tr>
+                  <td width="33">6</td>
+                  <td width="168">DD KISAN</td>
+                  <td width="90">153</td>
+                  </tr>
+                  <tr>
+                  <td width="33">7</td>
+                  <td width="168">DD BHARTI</td>
+                  <td width="90">154</td>
+                  </tr>
+                  <tr>
+                  <td width="33">8</td>
+                  <td width="168">MAIBOLI</td>
+                  <td width="90">157</td>
+                  </tr>
+                  <tr>
+                  <td width="33">9</td>
+                  <td width="168">ISHARA TV</td>
+                  <td width="90">159</td>
+                  </tr>
+                  <tr>
+                  <td width="33">10</td>
+                  <td width="168">THQ</td>
+                  <td width="90">160</td>
+                  </tr>
+                  <tr>
+                  <td width="33">11</td>
+                  <td width="168">KHUSHBOO TV</td>
+                  <td width="90">161</td>
+                  </tr>
+                  <tr>
+                  <td width="33">12</td>
+                  <td width="168">DABANG</td>
+                  <td width="90">195</td>
+                  </tr>
+                  <tr>
+                  <td width="33">13</td>
+                  <td width="168">FILMY</td>
+                  <td width="90">196</td>
+                  </tr>
+                  <tr>
+                  <td width="33">14</td>
+                  <td width="168">B4U KADAK</td>
+                  <td width="90">197</td>
+                  </tr>
+                  <tr>
+                  <td width="33">15</td>
+                  <td width="168">B4U MOVIES</td>
+                  <td width="90">198</td>
+                  </tr>
+                  <tr>
+                  <td width="33">16</td>
+                  <td width="168">GARGAUR</td>
+                  <td width="90">199</td>
+                  </tr>
+                  <tr>
+                  <td width="33">17</td>
+                  <td width="168">DANGAL2</td>
+                  <td width="90">200</td>
+                  </tr>
+                  <tr>
+                  <td width="33">18</td>
+                  <td width="168">MANORANJAN MOVIES</td>
+                  <td width="90">208</td>
+                  </tr>
+                  <tr>
+                  <td width="33">19</td>
+                  <td width="168">OSCAR MOVIES</td>
+                  <td width="90">211</td>
+                  </tr>
+                  <tr>
+                  <td width="33">20</td>
+                  <td width="168">MAHA MOVIES</td>
+                  <td width="90">214</td>
+                  </tr>
+                  <tr>
+                  <td width="33">21</td>
+                  <td width="168">FKT MARATHI</td>
+                  <td width="90">216</td>
+                  </tr>
+                  <tr>
+                  <td width="33">22</td>
+                  <td width="168">GOLDMINE BOLLYWOOD</td>
+                  <td width="90">217</td>
+                  </tr>
+                  <tr>
+                  <td width="33">23</td>
+                  <td width="168">WOW CINEMA</td>
+                  <td width="90">218</td>
+                  </tr>
+                  <tr>
+                  <td width="33">24</td>
+                  <td width="168">ABZY MOVIES</td>
+                  <td width="90">219</td>
+                  </tr>
+                  <tr>
+                  <td width="33">25</td>
+                  <td width="168">ABZY DAKAD</td>
+                  <td width="90">220</td>
+                  </tr>
+                  <tr>
+                  <td width="33">26</td>
+                  <td width="168">BEFLIX MOVIES</td>
+                  <td width="90">221</td>
+                  </tr>
+                  <tr>
+                  <td width="33">27</td>
+                  <td width="168">CINEMA TV</td>
+                  <td width="90">222</td>
+                  </tr>
+                  <tr>
+                  <td width="33">28</td>
+                  <td width="168">SHAMROO</td>
+                  <td width="90">224</td>
+                  </tr>
+                  <tr>
+                  <td width="33">29</td>
+                  <td width="168">PTC PUNJABI GOLD</td>
+                  <td width="90">225</td>
+                  </tr>
+                  <tr>
+                  <td width="33">30</td>
+                  <td width="168">ABZY COOL</td>
+                  <td width="90">229</td>
+                  </tr>
+                  <tr>
+                  <td width="33">31</td>
+                  <td width="168">I LOVE</td>
+                  <td width="90">244</td>
+                  </tr>
+                  <tr>
+                  <td width="33">32</td>
+                  <td width="168">9X JALWA</td>
+                  <td width="90">246</td>
+                  </tr>
+                  <tr>
+                  <td width="33">33</td>
+                  <td width="168">PITAARA</td>
+                  <td width="90">248</td>
+                  </tr>
+                  <tr>
+                  <td width="33">34</td>
+                  <td width="168">9XM</td>
+                  <td width="90">249</td>
+                  </tr>
+                  <tr>
+                  <td width="33">35</td>
+                  <td width="168">MASTIII</td>
+                  <td width="90">250</td>
+                  </tr>
+                  <tr>
+                  <td width="33">36</td>
+                  <td width="168">MUSIC INDIA</td>
+                  <td width="90">252</td>
+                  </tr>
+                  <tr>
+                  <td width="33">37</td>
+                  <td width="168">B4U MUSIC</td>
+                  <td width="90">253</td>
+                  </tr>
+                  <tr>
+                  <td width="33">38</td>
+                  <td width="168">PTC PUNJABI</td>
+                  <td width="90">254</td>
+                  </tr>
+                  <tr>
+                  <td width="33">39</td>
+                  <td width="168">PTC CHAK DE</td>
+                  <td width="90">255</td>
+                  </tr>
+                  <tr>
+                  <td width="33">40</td>
+                  <td width="168">MH ONE MUSIC</td>
+                  <td width="90">256</td>
+                  </tr>
+                  <tr>
+                  <td width="33">41</td>
+                  <td width="168">SANGEET BHOJPURI</td>
+                  <td width="90">258</td>
+                  </tr>
+                  <tr>
+                  <td width="33">42</td>
+                  <td width="168">GOLDMINE</td>
+                  <td width="90">259</td>
+                  </tr>
+                  <tr>
+                  <td width="33">43</td>
+                  <td width="168">9X JHAKAAS</td>
+                  <td width="90">260</td>
+                  </tr>
+                  <tr>
+                  <td width="33">44</td>
+                  <td width="168">BALLE BALLE</td>
+                  <td width="90">262</td>
+                  </tr>
+                  <tr>
+                  <td width="33">45</td>
+                  <td width="168">M TUNE</td>
+                  <td width="90">263</td>
+                  </tr>
+                  <tr>
+                  <td width="33">46</td>
+                  <td width="168">PUNJABI HITS</td>
+                  <td width="90">265</td>
+                  </tr>
+                  <tr>
+                  <td width="33">47</td>
+                  <td width="168">9X TASHAN</td>
+                  <td width="90">266</td>
+                  </tr>
+                  <tr>
+                  <td width="33">48</td>
+                  <td width="168">PTC MUSIC</td>
+                  <td width="90">267</td>
+                  </tr>
+                  <tr>
+                  <td width="33">49</td>
+                  <td width="168">SHOW BOX</td>
+                  <td width="90">268</td>
+                  </tr>
+                  <tr>
+                  <td width="33">50</td>
+                  <td width="168">E24</td>
+                  <td width="90">269</td>
+                  </tr>
+                  <tr>
+                  <td width="33">51</td>
+                  <td width="168">SANGEET BANGLA</td>
+                  <td width="90">272</td>
+                  </tr>
+                  <tr>
+                  <td width="33">52</td>
+                  <td width="168">EUROSPORT HD</td>
+                  <td width="90">336</td>
+                  </tr>
+                  <tr>
+                  <td width="33">53</td>
+                  <td width="168">DD SPORTS</td>
+                  <td width="90">337</td>
+                  </tr>
+                  <tr>
+                  <td width="33">54</td>
+                  <td width="168">SANSKAR</td>
+                  <td width="90">350</td>
+                  </tr>
+                  <tr>
+                  <td width="33">55</td>
+                  <td width="168">ASTHA BHAJAN</td>
+                  <td width="90">351</td>
+                  </tr>
+                  <tr>
+                  <td width="33">56</td>
+                  <td width="168">SATSANG</td>
+                  <td width="90">352</td>
+                  </tr>
+                  <tr>
+                  <td width="33">57</td>
+                  <td width="168">ASTHA TV</td>
+                  <td width="90">353</td>
+                  </tr>
+                  <tr>
+                  <td width="33">58</td>
+                  <td width="168">VADIC</td>
+                  <td width="90">354</td>
+                  </tr>
+                  <tr>
+                  <td width="33">59</td>
+                  <td width="168">SARV DHRAM SANGAM</td>
+                  <td width="90">355</td>
+                  </tr>
+                  <tr>
+                  <td width="33">60</td>
+                  <td width="168">SADHNA</td>
+                  <td width="90">356</td>
+                  </tr>
+                  <tr>
+                  <td width="33">61</td>
+                  <td width="168">DIVYA</td>
+                  <td width="90">358</td>
+                  </tr>
+                  <tr>
+                  <td width="33">62</td>
+                  <td width="168">SHARDHA MH ONE</td>
+                  <td width="90">359</td>
+                  </tr>
+                  <tr>
+                  <td width="33">63</td>
+                  <td width="168">ISHWAR VHAKTI</td>
+                  <td width="90">360</td>
+                  </tr>
+                  <tr>
+                  <td width="33">64</td>
+                  <td width="168">PACE OF MIND</td>
+                  <td width="90">361</td>
+                  </tr>
+                  <tr>
+                  <td width="33">65</td>
+                  <td width="168">SANSKRITI TV</td>
+                  <td width="90">362</td>
+                  </tr>
+                  <tr>
+                  <td width="33">66</td>
+                  <td width="168">ANJAN TV</td>
+                  <td width="90">363</td>
+                  </tr>
+                  <tr>
+                  <td width="33">67</td>
+                  <td width="168">SHUBH TV</td>
+                  <td width="90">364</td>
+                  </tr>
+                  <tr>
+                  <td width="33">68</td>
+                  <td width="168">Fateh TV</td>
+                  <td width="90">365</td>
+                  </tr>
+                  <tr>
+                  <td width="33">69</td>
+                  <td width="168">DISHA TV</td>
+                  <td width="90">366</td>
+                  </tr>
+                  <tr>
+                  <td width="33">70</td>
+                  <td width="168">JINVANI</td>
+                  <td width="90">367</td>
+                  </tr>
+                  <tr>
+                  <td width="33">71</td>
+                  <td width="168">BHAKTI SAGAR</td>
+                  <td width="90">368</td>
+                  </tr>
+                  <tr>
+                  <td width="33">72</td>
+                  <td width="168">AASEERVATHAM TV</td>
+                  <td width="90">369</td>
+                  </tr>
+                  <tr>
+                  <td width="33">73</td>
+                  <td width="168">CHANNELS WIN</td>
+                  <td width="90">370</td>
+                  </tr>
+                  <tr>
+                  <td width="33">74</td>
+                  <td width="168">SHUBH CINEMA</td>
+                  <td width="90">371</td>
+                  </tr>
+                  <tr>
+                  <td width="33">75</td>
+                  <td width="168">PTC SIMARN</td>
+                  <td width="90">372</td>
+                  </tr>
+                  <tr>
+                  <td width="33">76</td>
+                  <td width="168">SANT VANI</td>
+                  <td width="90">373</td>
+                  </tr>
+                  <tr>
+                  <td width="33">77</td>
+                  <td width="168">AAJTAK HD</td>
+                  <td width="90">411</td>
+                  </tr>
+                  <tr>
+                  <td width="33">78</td>
+                  <td width="168">GNT</td>
+                  <td width="90">418</td>
+                  </tr>
+                  <tr>
+                  <td width="33">79</td>
+                  <td width="168">ABP NEWS</td>
+                  <td width="90">429</td>
+                  </tr>
+                  <tr>
+                  <td width="33">80</td>
+                  <td width="168">INDIA TV</td>
+                  <td width="90">405</td>
+                  </tr>
+                  <tr>
+                  <td width="33">81</td>
+                  <td width="168">REPUBLIC BHARAT TV</td>
+                  <td width="90">432</td>
+                  </tr>
+                  <tr>
+                  <td width="33">82</td>
+                  <td width="168">NEWS NATION</td>
+                  <td width="90">433</td>
+                  </tr>
+                  <tr>
+                  <td width="33">83</td>
+                  <td width="168">TV9 BHARATVARSH</td>
+                  <td width="90">434</td>
+                  </tr>
+                  <tr>
+                  <td width="33">84</td>
+                  <td width="168">KHABAR FAST</td>
+                  <td width="90">435</td>
+                  </tr>
+                  <tr>
+                  <td width="33">85</td>
+                  <td width="168">PTC NEWS</td>
+                  <td width="90">437</td>
+                  </tr>
+                  <tr>
+                  <td width="33">86</td>
+                  <td width="168">KHABREIN ABHI TAK</td>
+                  <td width="90">438</td>
+                  </tr>
+                  <tr>
+                  <td width="33">87</td>
+                  <td width="168">HINDI KHABAR</td>
+                  <td width="90">440</td>
+                  </tr>
+                  <tr>
+                  <td width="33">88</td>
+                  <td width="168">DD NEWS</td>
+                  <td width="90">441</td>
+                  </tr>
+                  <tr>
+                  <td width="33">89</td>
+                  <td width="168">INDIA NEWS</td>
+                  <td width="90">442</td>
+                  </tr>
+                  <tr>
+                  <td width="33">90</td>
+                  <td width="168">IND 24</td>
+                  <td width="90">443</td>
+                  </tr>
+                  <tr>
+                  <td width="33">91</td>
+                  <td width="168">NDTV INDIA</td>
+                  <td width="90">445</td>
+                  </tr>
+                  <tr>
+                  <td width="33">92</td>
+                  <td width="168">NEWS 24</td>
+                  <td width="90">446</td>
+                  </tr>
+                  <tr>
+                  <td width="33">93</td>
+                  <td width="168">BANSAL NEWS</td>
+                  <td width="90">447</td>
+                  </tr>
+                  <tr>
+                  <td width="33">94</td>
+                  <td width="168">JAN TV</td>
+                  <td width="90">448</td>
+                  </tr>
+                  <tr>
+                  <td width="33">95</td>
+                  <td width="168">PRADHIN TIME</td>
+                  <td width="90">449</td>
+                  </tr>
+                  <tr>
+                  <td width="33">96</td>
+                  <td width="168">NEWS STATE UTTAR PRADESH</td>
+                  <td width="90">450</td>
+                  </tr>
+                  <tr>
+                  <td width="33">97</td>
+                  <td width="168">INDIA NEWS HARYANA</td>
+                  <td width="90">451</td>
+                  </tr>
+                  <tr>
+                  <td width="33">98</td>
+                  <td width="168">INDIA NEWS RAJSTHAN</td>
+                  <td width="90">452</td>
+                  </tr>
+                  <tr>
+                  <td width="33">99</td>
+                  <td width="168">NDIA NEWS MADHYA PRADES</td>
+                  <td width="90">453</td>
+                  </tr>
+                  <tr>
+                  <td width="33">100</td>
+                  <td width="168">NDIA NEWS PUNJAB HARYANA</td>
+                  <td width="90">454</td>
+                  </tr>
+                  <tr>
+                  <td width="33">101</td>
+                  <td width="168">MH ONE NEWS</td>
+                  <td width="90">455</td>
+                  </tr>
+                  <tr>
+                  <td width="33">102</td>
+                  <td width="168">INDIA NEWS UTTAR PRADESH</td>
+                  <td width="90">456</td>
+                  </tr>
+                  <tr>
+                  <td width="33">103</td>
+                  <td width="168">SANDESH NEWS</td>
+                  <td width="90">458</td>
+                  </tr>
+                  <tr>
+                  <td width="33">104</td>
+                  <td width="168">NEWS X</td>
+                  <td width="90">460</td>
+                  </tr>
+                  <tr>
+                  <td width="33">105</td>
+                  <td width="168">SHUDARSAN NEWS</td>
+                  <td width="90">461</td>
+                  </tr>
+                  <tr>
+                  <td width="33">106</td>
+                  <td width="168">DD INDIA HD</td>
+                  <td width="90">462</td>
+                  </tr>
+                  <tr>
+                  <td width="33">107</td>
+                  <td width="168">SANSAD TV HD</td>
+                  <td width="90">463</td>
+                  </tr>
+                  <tr>
+                  <td width="33">108</td>
+                  <td width="168">DD URDU</td>
+                  <td width="90">464</td>
+                  </tr>
+                  <tr>
+                  <td width="33">109</td>
+                  <td width="168">DD TAMIL NANDU</td>
+                  <td width="90">465</td>
+                  </tr>
+                  <tr>
+                  <td width="33">110</td>
+                  <td width="168">DD TELANGNA</td>
+                  <td width="90">466</td>
+                  </tr>
+                  <tr>
+                  <td width="33">111</td>
+                  <td width="168">DD KERLA</td>
+                  <td width="90">469</td>
+                  </tr>
+                  <tr>
+                  <td width="33">112</td>
+                  <td width="168">DD UTTAR PRADESH</td>
+                  <td width="90">470</td>
+                  </tr>
+                  <tr>
+                  <td width="33">113</td>
+                  <td width="168">DD BANGLA</td>
+                  <td width="90">471</td>
+                  </tr>
+                  <tr>
+                  <td width="33">114</td>
+                  <td width="168">INH 24*7</td>
+                  <td width="90">472</td>
+                  </tr>
+                  <tr>
+                  <td width="33">115</td>
+                  <td width="168">ND NEWS 24</td>
+                  <td width="90">473</td>
+                  </tr>
+                  <tr>
+                  <td width="33">116</td>
+                  <td width="168">DD RAJSTHAN</td>
+                  <td width="90">475</td>
+                  </tr>
+                  <tr>
+                  <td width="33">117</td>
+                  <td width="168">DD KARNATKA</td>
+                  <td width="90">476</td>
+                  </tr>
+                  <tr>
+                  <td width="33">118</td>
+                  <td width="168">DD KASHIR</td>
+                  <td width="90">478</td>
+                  </tr>
+                  <tr>
+                  <td width="33">119</td>
+                  <td width="168">DD BIHAR</td>
+                  <td width="90">481</td>
+                  </tr>
+                  <tr>
+                  <td width="33">120</td>
+                  <td width="168">MAHAA NEWS&#8217;</td>
+                  <td width="90">482</td>
+                  </tr>
+                  <tr>
+                  <td width="33">121</td>
+                  <td width="168">BHARAT SAMACHAR</td>
+                  <td width="90">484</td>
+                  </tr>
+                  <tr>
+                  <td width="33">122</td>
+                  <td width="168">NEWS 11 BHARAT</td>
+                  <td width="90">485</td>
+                  </tr>
+                  <tr>
+                  <td width="33">123</td>
+                  <td width="168">NEWS STATE UTTAR  PRADES</td>
+                  <td width="90">487</td>
+                  </tr>
+                  <tr>
+                  <td width="33">124</td>
+                  <td width="168">MKN</td>
+                  <td width="90">489</td>
+                  </tr>
+                  <tr>
+                  <td width="33">125</td>
+                  <td width="168">NAXATRA NEWS</td>
+                  <td width="90">493</td>
+                  </tr>
+                  <tr>
+                  <td width="33">126</td>
+                  <td width="168">ABP GANGA</td>
+                  <td width="90">495</td>
+                  </tr>
+                  <tr>
+                  <td width="33">127</td>
+                  <td width="168">INDIA TODAY</td>
+                  <td width="90">530</td>
+                  </tr>
+                  <tr>
+                  <td width="33">128</td>
+                  <td width="168">ALJAZEERA HD</td>
+                  <td width="90">531</td>
+                  </tr>
+                  <tr>
+                  <td width="33">129</td>
+                  <td width="168">REPUBLIC TV</td>
+                  <td width="90">532</td>
+                  </tr>
+                  <tr>
+                  <td width="33">130</td>
+                  <td width="168">SAHARA NCR</td>
+                  <td width="90">533</td>
+                  </tr>
+                  <tr>
+                  <td width="33">131</td>
+                  <td width="168">SAHARA NET</td>
+                  <td width="90">534</td>
+                  </tr>
+                  <tr>
+                  <td width="33">132</td>
+                  <td width="168">TRT WORLD HD</td>
+                  <td width="90">546</td>
+                  </tr>
+                  <tr>
+                  <td width="33">133</td>
+                  <td width="168">NHK WORLD JAPAN HD</td>
+                  <td width="90">548</td>
+                  </tr>
+                  <tr>
+                  <td width="33">134</td>
+                  <td width="168">DW TV HD</td>
+                  <td width="90">551</td>
+                  </tr>
+                  <tr>
+                  <td width="33">135</td>
+                  <td width="168">DISCOVERY HD WORLD</td>
+                  <td width="90">611</td>
+                  </tr>
+                  <tr>
+                  <td width="33">136</td>
+                  <td width="168">ANIMAL PLANET HD</td>
+                  <td width="90">612</td>
+                  </tr>
+                  <tr>
+                  <td width="33">137</td>
+                  <td width="168">FASHION TV HD</td>
+                  <td width="90">614</td>
+                  </tr>
+                  <tr>
+                  <td width="33">138</td>
+                  <td width="168">FOOD FOOD</td>
+                  <td width="90">624</td>
+                  </tr>
+                  <tr>
+                  <td width="33">139</td>
+                  <td width="168">GUBBARE</td>
+                  <td width="90">629</td>
+                  </tr>
+                  <tr>
+                  <td width="33">140</td>
+                  <td width="168">DOSCOVERY KIDS</td>
+                  <td width="90">635</td>
+                  </tr>
+                  <tr>
+                  <td width="33">141</td>
+                  <td width="168">DISCOVERY ID HD</td>
+                  <td width="90">657</td>
+                  </tr>
+                  <tr>
+                  <td width="33">142</td>
+                  <td width="168">ABP ANANDA</td>
+                  <td width="90">693</td>
+                  </tr>
+                  <tr>
+                  <td width="33">143</td>
+                  <td width="168">TV 9 TELGU</td>
+                  <td width="90">694</td>
+                  </tr>
+                  <tr>
+                  <td width="33">144</td>
+                  <td width="168">TLC WORLD HD</td>
+                  <td width="90">695</td>
+                  </tr>
+                  <tr>
+                  <td width="33">145</td>
+                  <td width="168">EPIC</td>
+                  <td width="90">696</td>
+                  </tr>
+                  <tr>
+                  <td width="33">146</td>
+                  <td width="168">DISCOVERY SCIENCE</td>
+                  <td width="90">697</td>
+                  </tr>
+                  <tr>
+                  <td width="33">147</td>
+                  <td width="168">DISCOVERY TURBO</td>
+                  <td width="90">698</td>
+                  </tr>
+                  <tr>
+                  <td width="33">148</td>
+                  <td width="168">B4U BHOJPURI</td>
+                  <td width="90">700</td>
+                  </tr>
+                  <tr>
+                  <td width="33">149</td>
+                  <td width="168">DD GUJRATI</td>
+                  <td width="90">701</td>
+                  </tr>
+                  <tr>
+                  <td width="33">150</td>
+                  <td width="168">DD MP</td>
+                  <td width="90">702</td>
+                  </tr>
+                  <tr>
+                  <td width="33">151</td>
+                  <td width="168">DD ANDRA PREDESH</td>
+                  <td width="90">703</td>
+                  </tr>
+                  <tr>
+                  <td width="33">152</td>
+                  <td width="168">TV9 MARATHI</td>
+                  <td width="90">704</td>
+                  </tr>
+                  <tr>
+                  <td width="33">153</td>
+                  <td width="168">ABP MAJHA</td>
+                  <td width="90">708</td>
+                  </tr>
+                  <tr>
+                  <td width="33">154</td>
+                  <td width="168">CHADIKLA TIME TV</td>
+                  <td width="90">709</td>
+                  </tr>
+                  <tr>
+                  <td width="33">155</td>
+                  <td width="168">EZ MALL</td>
+                  <td width="90">710</td>
+                  </tr>
+                  <tr>
+                  <td width="33">156</td>
+                  <td width="168">ARGUS</td>
+                  <td width="90">711</td>
+                  </tr>
+                  <tr>
+                  <td width="33">157</td>
+                  <td width="168">BADAKHABAR</td>
+                  <td width="90">712</td>
+                  </tr>
+                  <tr>
+                  <td width="33">158</td>
+                  <td width="168">PARAS TV</td>
+                  <td width="90">713</td>
+                  </tr>
+                  <tr>
+                  <td width="33">159</td>
+                  <td width="168">CAPTAIN TV</td>
+                  <td width="90">714</td>
+                  </tr>
+                  <tr>
+                  <td width="33">160</td>
+                  <td width="168">MAKKAL TV</td>
+                  <td width="90">715</td>
+                  </tr>
+                  <tr>
+                  <td width="33">161</td>
+                  <td width="168">VASANTH TV</td>
+                  <td width="90">716</td>
+                  </tr>
+                  <tr>
+                  <td width="33">162</td>
+                  <td width="168">POLIMER NEWS</td>
+                  <td width="90">718</td>
+                  </tr>
+                  <tr>
+                  <td width="33">163</td>
+                  <td width="168">GYAN DARSHAN 1</td>
+                  <td width="90">726</td>
+                  </tr>
+                  <tr>
+                  <td width="33">164</td>
+                  <td width="168">LOKSAHI MARATHI</td>
+                  <td width="90">750</td>
+                  </tr>
+                  <tr>
+                  <td width="33">165</td>
+                  <td width="168">KALINGA TV</td>
+                  <td width="90">992</td>
+                  </tr>
+                  <tr>
+                  <td width="33">166</td>
+                  <td width="168">NANDIGHOSH TV</td>
+                  <td width="90">993</td>
+                  </tr>
+                  <tr>
+                  <td width="33">167</td>
+                  <td width="168">DD ODIA</td>
+                  <td width="90">994</td>
+                  </tr>
+                  <tr>
+                  <td width="33">168</td>
+                  <td width="168">SAAM TV</td>
+                  <td width="90">997</td>
+                  </tr>
+                  </tbody>
+            </table>
+        </div>
 
-    <!-- NavBar -->
-    <div class="toolbox">
-        <diV class="toolbox-color"> 
-            <!-- <div class="save-content">Save</div> -->
-            <div class="all-color"><h4>ALL</h4></div>
-            <div class="lightpink color"></div>
-            <div class="lightgreen color"></div>
-            <div class="lightblue color"></div>
-            <div class="black color"></div>
+        <div class="table-title"> </div>
+
+        <!-- Table 2 -->
+        <div>
+            <div class="table-title">Table-636</div>
+            <table>
+              <!-- 636 -->
+                  <tbody>
+                  <tr>
+                  <td width="36">S. No</td>
+                  <td width="275">Channel Name</td>
+                  <td width="101">Channel Number</td>
+                  </tr>
+                  <tr>
+                  <td width="36">1</td>
+                  <td width="275">STAR PLUS SD</td>
+                  <td width="101">115</td>
+                  </tr>
+                  <tr>
+                  <td width="36">2</td>
+                  <td width="275">SONY SET SD</td>
+                  <td width="101">116</td>
+                  </tr>
+                  <tr>
+                  <td width="36">3</td>
+                  <td width="275">SONY SAB SD</td>
+                  <td width="101">118</td>
+                  </tr>
+                  <tr>
+                  <td width="36">4</td>
+                  <td width="275">COLORS SD</td>
+                  <td width="101">119</td>
+                  </tr>
+                  <tr>
+                  <td width="36">5</td>
+                  <td width="275">STAR BHARAT SD</td>
+                  <td width="101">123</td>
+                  </tr>
+                  <tr>
+                  <td width="36">6</td>
+                  <td width="275">SONY PAL</td>
+                  <td width="101">125</td>
+                  </tr>
+                  <tr>
+                  <td width="36">7</td>
+                  <td width="275">COLORS RISHTEY</td>
+                  <td width="101">127</td>
+                  </tr>
+                  <tr>
+                  <td width="36">8</td>
+                  <td width="275">BINDASS</td>
+                  <td width="101">128</td>
+                  </tr>
+                  <tr>
+                  <td width="36">9</td>
+                  <td width="275">STAR UTSAV</td>
+                  <td width="101">144</td>
+                  </tr>
+                  <tr>
+                  <td width="36">10</td>
+                  <td width="275">DANGAL</td>
+                  <td width="101">146</td>
+                  </tr>
+                  <tr>
+                  <td width="36">11</td>
+                  <td width="275">DILLAGI</td>
+                  <td width="101">149</td>
+                  </tr>
+                  <tr>
+                  <td width="36">12</td>
+                  <td width="275">MANORANJAN GRAND</td>
+                  <td width="101">150</td>
+                  </tr>
+                  <tr>
+                  <td width="36">13</td>
+                  <td width="275">SAMAY SAHARA ONE</td>
+                  <td width="101">152</td>
+                  </tr>
+                  <tr>
+                  <td width="36">14</td>
+                  <td width="275">DD KISAN</td>
+                  <td width="101">153</td>
+                  </tr>
+                  <tr>
+                  <td width="36">15</td>
+                  <td width="275">DD BHARTI</td>
+                  <td width="101">154</td>
+                  </tr>
+                  <tr>
+                  <td width="36">16</td>
+                  <td width="275">MAIBOLI</td>
+                  <td width="101">157</td>
+                  </tr>
+                  <tr>
+                  <td width="36">17</td>
+                  <td width="275">ISHARA TV</td>
+                  <td width="101">159</td>
+                  </tr>
+                  <tr>
+                  <td width="36">18</td>
+                  <td width="275">THQ</td>
+                  <td width="101">160</td>
+                  </tr>
+                  <tr>
+                  <td width="36">19</td>
+                  <td width="275">KHUSHBOO TV</td>
+                  <td width="101">161</td>
+                  </tr>
+                  <tr>
+                  <td width="36">20</td>
+                  <td width="275">STAR GOLD SD</td>
+                  <td width="101">175</td>
+                  </tr>
+                  <tr>
+                  <td width="36">21</td>
+                  <td width="275">SONY MAX SD</td>
+                  <td width="101">176</td>
+                  </tr>
+                  <tr>
+                  <td width="36">22</td>
+                  <td width="275">STAR GOLD 2</td>
+                  <td width="101">179</td>
+                  </tr>
+                  <tr>
+                  <td width="36">23</td>
+                  <td width="275">SONY MAX 2</td>
+                  <td width="101">181</td>
+                  </tr>
+                  <tr>
+                  <td width="36">24</td>
+                  <td width="275">COLORS CINEPLEX SD</td>
+                  <td width="101">183</td>
+                  </tr>
+                  <tr>
+                  <td width="36">25</td>
+                  <td width="275">SONY WAH</td>
+                  <td width="101">184</td>
+                  </tr>
+                  <tr>
+                  <td width="36">26</td>
+                  <td width="275">UTV MOVIES</td>
+                  <td width="101">185</td>
+                  </tr>
+                  <tr>
+                  <td width="36">27</td>
+                  <td width="275">UTV ACTION</td>
+                  <td width="101">189</td>
+                  </tr>
+                  <tr>
+                  <td width="36">28</td>
+                  <td width="275">STAR UTSAV MOVIES</td>
+                  <td width="101">191</td>
+                  </tr>
+                  <tr>
+                  <td width="36">29</td>
+                  <td width="275">DABANG</td>
+                  <td width="101">195</td>
+                  </tr>
+                  <tr>
+                  <td width="36">30</td>
+                  <td width="275">FILMY</td>
+                  <td width="101">196</td>
+                  </tr>
+                  <tr>
+                  <td width="36">31</td>
+                  <td width="275">B4U KADAK</td>
+                  <td width="101">197</td>
+                  </tr>
+                  <tr>
+                  <td width="36">32</td>
+                  <td width="275">B4U MOVIES</td>
+                  <td width="101">198</td>
+                  </tr>
+                  <tr>
+                  <td width="36">33</td>
+                  <td width="275">GARGAUR</td>
+                  <td width="101">199</td>
+                  </tr>
+                  <tr>
+                  <td width="36">34</td>
+                  <td width="275">DANGAL2</td>
+                  <td width="101">200</td>
+                  </tr>
+                  <tr>
+                  <td width="36">35</td>
+                  <td width="275">MANORANJAN MOVIES</td>
+                  <td width="101">208</td>
+                  </tr>
+                  <tr>
+                  <td width="36">36</td>
+                  <td width="275">OSCAR MOVIES</td>
+                  <td width="101">211</td>
+                  </tr>
+                  <tr>
+                  <td width="36">37</td>
+                  <td width="275">MAHA MOVIES</td>
+                  <td width="101">214</td>
+                  </tr>
+                  <tr>
+                  <td width="36">38</td>
+                  <td width="275">FKT MARATHI</td>
+                  <td width="101">216</td>
+                  </tr>
+                  <tr>
+                  <td width="36">39</td>
+                  <td width="275">GOLDMINE BOLLYWOOD</td>
+                  <td width="101">217</td>
+                  </tr>
+                  <tr>
+                  <td width="36">40</td>
+                  <td width="275">WOW CINEMA</td>
+                  <td width="101">218</td>
+                  </tr>
+                  <tr>
+                  <td width="36">41</td>
+                  <td width="275">ABZY MOVIES</td>
+                  <td width="101">219</td>
+                  </tr>
+                  <tr>
+                  <td width="36">42</td>
+                  <td width="275">ABZY DAKAD</td>
+                  <td width="101">220</td>
+                  </tr>
+                  <tr>
+                  <td width="36">43</td>
+                  <td width="275">BEFLIX MOVIES</td>
+                  <td width="101">221</td>
+                  </tr>
+                  <tr>
+                  <td width="36">44</td>
+                  <td width="275">CINEMA TV</td>
+                  <td width="101">222</td>
+                  </tr>
+                  <tr>
+                  <td width="36">45</td>
+                  <td width="275">SHAMROO</td>
+                  <td width="101">224</td>
+                  </tr>
+                  <tr>
+                  <td width="36">46</td>
+                  <td width="275">PTC PUNJABI GOLD</td>
+                  <td width="101">225</td>
+                  </tr>
+                  <tr>
+                  <td width="36">47</td>
+                  <td width="275">ABZY COOL</td>
+                  <td width="101">229</td>
+                  </tr>
+                  <tr>
+                  <td width="36">48</td>
+                  <td width="275">MTV SD</td>
+                  <td width="101">238</td>
+                  </tr>
+                  <tr>
+                  <td width="36">49</td>
+                  <td width="275">MTV BITS SD</td>
+                  <td width="101">240</td>
+                  </tr>
+                  <tr>
+                  <td width="36">50</td>
+                  <td width="275">I LOVE</td>
+                  <td width="101">244</td>
+                  </tr>
+                  <tr>
+                  <td width="36">51</td>
+                  <td width="275">9X JALWA</td>
+                  <td width="101">246</td>
+                  </tr>
+                  <tr>
+                  <td width="36">52</td>
+                  <td width="275">PITAARA</td>
+                  <td width="101">248</td>
+                  </tr>
+                  <tr>
+                  <td width="36">53</td>
+                  <td width="275">9XM</td>
+                  <td width="101">249</td>
+                  </tr>
+                  <tr>
+                  <td width="36">54</td>
+                  <td width="275">MASTIII</td>
+                  <td width="101">250</td>
+                  </tr>
+                  <tr>
+                  <td width="36">55</td>
+                  <td width="275">MUSIC INDIA</td>
+                  <td width="101">252</td>
+                  </tr>
+                  <tr>
+                  <td width="36">56</td>
+                  <td width="275">B4U MUSIC</td>
+                  <td width="101">253</td>
+                  </tr>
+                  <tr>
+                  <td width="36">57</td>
+                  <td width="275">PTC PUNJABI</td>
+                  <td width="101">254</td>
+                  </tr>
+                  <tr>
+                  <td width="36">58</td>
+                  <td width="275">PTC CHAK DE</td>
+                  <td width="101">255</td>
+                  </tr>
+                  <tr>
+                  <td width="36">59</td>
+                  <td width="275">MH ONE MUSIC</td>
+                  <td width="101">256</td>
+                  </tr>
+                  <tr>
+                  <td width="36">60</td>
+                  <td width="275">SANGEET BHOJPURI</td>
+                  <td width="101">258</td>
+                  </tr>
+                  <tr>
+                  <td width="36">61</td>
+                  <td width="275">GOLDMINE</td>
+                  <td width="101">259</td>
+                  </tr>
+                  <tr>
+                  <td width="36">62</td>
+                  <td width="275">9X JHAKAAS</td>
+                  <td width="101">260</td>
+                  </tr>
+                  <tr>
+                  <td width="36">63</td>
+                  <td width="275">BALLE BALLE</td>
+                  <td width="101">262</td>
+                  </tr>
+                  <tr>
+                  <td width="36">64</td>
+                  <td width="275">M TUNE</td>
+                  <td width="101">263</td>
+                  </tr>
+                  <tr>
+                  <td width="36">65</td>
+                  <td width="275">PUNJABI HITS</td>
+                  <td width="101">265</td>
+                  </tr>
+                  <tr>
+                  <td width="36">66</td>
+                  <td width="275">9X TASHAN</td>
+                  <td width="101">266</td>
+                  </tr>
+                  <tr>
+                  <td width="36">67</td>
+                  <td width="275">PTC MUSIC</td>
+                  <td width="101">267</td>
+                  </tr>
+                  <tr>
+                  <td width="36">68</td>
+                  <td width="275">SHOW BOX</td>
+                  <td width="101">268</td>
+                  </tr>
+                  <tr>
+                  <td width="36">69</td>
+                  <td width="275">E24</td>
+                  <td width="101">269</td>
+                  </tr>
+                  <tr>
+                  <td width="36">70</td>
+                  <td width="275">VH1 SD</td>
+                  <td width="101">271</td>
+                  </tr>
+                  <tr>
+                  <td width="36">71</td>
+                  <td width="275">SANGEET BANGLA</td>
+                  <td width="101">272</td>
+                  </tr>
+                  <tr>
+                  <td width="36">72</td>
+                  <td width="275">STAR SPORT 2 SD</td>
+                  <td width="101">326</td>
+                  </tr>
+                  <tr>
+                  <td width="36">73</td>
+                  <td width="275">STAR SPORTS 3</td>
+                  <td width="101">327</td>
+                  </tr>
+                  <tr>
+                  <td width="36">74</td>
+                  <td width="275">STAR SPORTS 1 HINDI SD</td>
+                  <td width="101">328</td>
+                  </tr>
+                  <tr>
+                  <td width="36">75</td>
+                  <td width="275">STAR SPORTS FIRST</td>
+                  <td width="101">335</td>
+                  </tr>
+                  <tr>
+                  <td width="36">76</td>
+                  <td width="275">DD SPORTS</td>
+                  <td width="101">337</td>
+                  </tr>
+                  <tr>
+                  <td width="36">77</td>
+                  <td width="275">SANSKAR</td>
+                  <td width="101">350</td>
+                  </tr>
+                  <tr>
+                  <td width="36">78</td>
+                  <td width="275">ASTHA BHAJAN</td>
+                  <td width="101">351</td>
+                  </tr>
+                  <tr>
+                  <td width="36">79</td>
+                  <td width="275">SATSANG</td>
+                  <td width="101">352</td>
+                  </tr>
+                  <tr>
+                  <td width="36">80</td>
+                  <td width="275">ASTHA TV</td>
+                  <td width="101">353</td>
+                  </tr>
+                  <tr>
+                  <td width="36">81</td>
+                  <td width="275">VADIC</td>
+                  <td width="101">354</td>
+                  </tr>
+                  <tr>
+                  <td width="36">82</td>
+                  <td width="275">SARV DHRAM SANGAM</td>
+                  <td width="101">355</td>
+                  </tr>
+                  <tr>
+                  <td width="36">83</td>
+                  <td width="275">SADHNA</td>
+                  <td width="101">356</td>
+                  </tr>
+                  <tr>
+                  <td width="36">84</td>
+                  <td width="275">DIVYA</td>
+                  <td width="101">358</td>
+                  </tr>
+                  <tr>
+                  <td width="36">85</td>
+                  <td width="275">SHARDHA MH ONE</td>
+                  <td width="101">359</td>
+                  </tr>
+                  <tr>
+                  <td width="36">86</td>
+                  <td width="275">ISWAR VHAKTI</td>
+                  <td width="101">360</td>
+                  </tr>
+                  <tr>
+                  <td width="36">87</td>
+                  <td width="275">PACE OF MIND</td>
+                  <td width="101">361</td>
+                  </tr>
+                  <tr>
+                  <td width="36">88</td>
+                  <td width="275">SANSKRITI TV</td>
+                  <td width="101">362</td>
+                  </tr>
+                  <tr>
+                  <td width="36">89</td>
+                  <td width="275">ANJAN TV</td>
+                  <td width="101">363</td>
+                  </tr>
+                  <tr>
+                  <td width="36">90</td>
+                  <td width="275">SHUBH TV</td>
+                  <td width="101">364</td>
+                  </tr>
+                  <tr>
+                  <td width="36">91</td>
+                  <td width="275">Fateh TV</td>
+                  <td width="101">365</td>
+                  </tr>
+                  <tr>
+                  <td width="36">92</td>
+                  <td width="275">DISHA TV</td>
+                  <td width="101">366</td>
+                  </tr>
+                  <tr>
+                  <td width="36">93</td>
+                  <td width="275">JINVANI</td>
+                  <td width="101">367</td>
+                  </tr>
+                  <tr>
+                  <td width="36">94</td>
+                  <td width="275">BHAKTI SAGAR</td>
+                  <td width="101">368</td>
+                  </tr>
+                  <tr>
+                  <td width="36">95</td>
+                  <td width="275">AASEERVATHAM TV</td>
+                  <td width="101">369</td>
+                  </tr>
+                  <tr>
+                  <td width="36">96</td>
+                  <td width="275">CHANNELS WIN</td>
+                  <td width="101">370</td>
+                  </tr>
+                  <tr>
+                  <td width="36">97</td>
+                  <td width="275">SHUBH CINEMA</td>
+                  <td width="101">371</td>
+                  </tr>
+                  <tr>
+                  <td width="36">98</td>
+                  <td width="275">PTC SIMARN</td>
+                  <td width="101">372</td>
+                  </tr>
+                  <tr>
+                  <td width="36">99</td>
+                  <td width="275">SANT VANI</td>
+                  <td width="101">373</td>
+                  </tr>
+                  <tr>
+                  <td width="36">100</td>
+                  <td width="275">CNBC AWAAZ</td>
+                  <td width="101">401</td>
+                  </tr>
+                  <tr>
+                  <td width="36">101</td>
+                  <td width="275">NEWS 18 INDIA</td>
+                  <td width="101">430</td>
+                  </tr>
+                  <tr>
+                  <td width="36">102</td>
+                  <td width="275">AAJTAK HD</td>
+                  <td width="101">411</td>
+                  </tr>
+                  <tr>
+                  <td width="36">103</td>
+                  <td width="275">NEWS 18 UTTAR PRADESH/UTTARAKHAND</td>
+                  <td width="101">414</td>
+                  </tr>
+                  <tr>
+                  <td width="36">104</td>
+                  <td width="275">EWS 18 MADHYA PRADESH/CHHATTISGAR</td>
+                  <td width="101">416</td>
+                  </tr>
+                  <tr>
+                  <td width="36">105</td>
+                  <td width="275">GNT</td>
+                  <td width="101">418</td>
+                  </tr>
+                  <tr>
+                  <td width="36">106</td>
+                  <td width="275">NEWS 18 RAJSTHAN</td>
+                  <td width="101">419</td>
+                  </tr>
+                  <tr>
+                  <td width="36">107</td>
+                  <td width="275">NEWS 18 URDU</td>
+                  <td width="101">422</td>
+                  </tr>
+                  <tr>
+                  <td width="36">108</td>
+                  <td width="275">NEWS 18 PUNJAB/HARYANA/HIMACHAL</td>
+                  <td width="101">423</td>
+                  </tr>
+                  <tr>
+                  <td width="36">109</td>
+                  <td width="275">ABP NEWS</td>
+                  <td width="101">429</td>
+                  </tr>
+                  <tr>
+                  <td width="36">110</td>
+                  <td width="275">INDIA TV</td>
+                  <td width="101">405</td>
+                  </tr>
+                  <tr>
+                  <td width="36">111</td>
+                  <td width="275">AAJ TAK SD</td>
+                  <td width="101">431</td>
+                  </tr>
+                  <tr>
+                  <td width="36">112</td>
+                  <td width="275">REPUBLIC BHARAT TV</td>
+                  <td width="101">432</td>
+                  </tr>
+                  <tr>
+                  <td width="36">113</td>
+                  <td width="275">NEWS NATION</td>
+                  <td width="101">433</td>
+                  </tr>
+                  <tr>
+                  <td width="36">114</td>
+                  <td width="275">TV9 BHARATVARSH</td>
+                  <td width="101">434</td>
+                  </tr>
+                  <tr>
+                  <td width="36">115</td>
+                  <td width="275">KHABAR FAST</td>
+                  <td width="101">435</td>
+                  </tr>
+                  <tr>
+                  <td width="36">116</td>
+                  <td width="275">PTC NEWS</td>
+                  <td width="101">437</td>
+                  </tr>
+                  <tr>
+                  <td width="36">117</td>
+                  <td width="275">KHABREIN ABHI TAK</td>
+                  <td width="101">438</td>
+                  </tr>
+                  <tr>
+                  <td width="36">118</td>
+                  <td width="275">NEWS 18 BIHAR/JHAKHAND</td>
+                  <td width="101">439</td>
+                  </tr>
+                  <tr>
+                  <td width="36">119</td>
+                  <td width="275">HINDI KHABAR</td>
+                  <td width="101">440</td>
+                  </tr>
+                  <tr>
+                  <td width="36">120</td>
+                  <td width="275">DD NEWS</td>
+                  <td width="101">441</td>
+                  </tr>
+                  <tr>
+                  <td width="36">121</td>
+                  <td width="275">INDIA NEWS</td>
+                  <td width="101">442</td>
+                  </tr>
+                  <tr>
+                  <td width="36">122</td>
+                  <td width="275">IND 24</td>
+                  <td width="101">443</td>
+                  </tr>
+                  <tr>
+                  <td width="36">123</td>
+                  <td width="275">NDTV INDIA</td>
+                  <td width="101">445</td>
+                  </tr>
+                  <tr>
+                  <td width="36">124</td>
+                  <td width="275">NEWS 24</td>
+                  <td width="101">446</td>
+                  </tr>
+                  <tr>
+                  <td width="36">125</td>
+                  <td width="275">BANSAL NEWS</td>
+                  <td width="101">447</td>
+                  </tr>
+                  <tr>
+                  <td width="36">126</td>
+                  <td width="275">JAN TV</td>
+                  <td width="101">448</td>
+                  </tr>
+                  <tr>
+                  <td width="36">127</td>
+                  <td width="275">PRADHIN TIME</td>
+                  <td width="101">449</td>
+                  </tr>
+                  <tr>
+                  <td width="36">128</td>
+                  <td width="275">NEWS STATE UTTAR PRADESH</td>
+                  <td width="101">450</td>
+                  </tr>
+                  <tr>
+                  <td width="36">129</td>
+                  <td width="275">INDIA NEWS HARYANA</td>
+                  <td width="101">451</td>
+                  </tr>
+                  <tr>
+                  <td width="36">130</td>
+                  <td width="275">INDIA NEWS RAJSTHAN</td>
+                  <td width="101">452</td>
+                  </tr>
+                  <tr>
+                  <td width="36">131</td>
+                  <td width="275">INDIA NEWS MADHYA PRADESH</td>
+                  <td width="101">453</td>
+                  </tr>
+                  <tr>
+                  <td width="36">132</td>
+                  <td width="275">INDIA NEWS PUNJAB HARYANA</td>
+                  <td width="101">454</td>
+                  </tr>
+                  <tr>
+                  <td width="36">133</td>
+                  <td width="275">MH ONE NEWS</td>
+                  <td width="101">455</td>
+                  </tr>
+                  <tr>
+                  <td width="36">134</td>
+                  <td width="275">INDIA NEWS UTTAR PRADESH</td>
+                  <td width="101">456</td>
+                  </tr>
+                  <tr>
+                  <td width="36">135</td>
+                  <td width="275">SANDESH NEWS</td>
+                  <td width="101">458</td>
+                  </tr>
+                  <tr>
+                  <td width="36">136</td>
+                  <td width="275">NEWS X</td>
+                  <td width="101">460</td>
+                  </tr>
+                  <tr>
+                  <td width="36">137</td>
+                  <td width="275">SHUDARSAN NEWS</td>
+                  <td width="101">461</td>
+                  </tr>
+                  <tr>
+                  <td width="36">138</td>
+                  <td width="275">DD URDU</td>
+                  <td width="101">464</td>
+                  </tr>
+                  <tr>
+                  <td width="36">139</td>
+                  <td width="275">DD TAMIL NANDU</td>
+                  <td width="101">465</td>
+                  </tr>
+                  <tr>
+                  <td width="36">140</td>
+                  <td width="275">DD TELANGNA</td>
+                  <td width="101">466</td>
+                  </tr>
+                  <tr>
+                  <td width="36">141</td>
+                  <td width="275">DD PORTBLIR</td>
+                  <td width="101">467</td>
+                  </tr>
+                  <tr>
+                  <td width="36">142</td>
+                  <td width="275">DD KERLA</td>
+                  <td width="101">469</td>
+                  </tr>
+                  <tr>
+                  <td width="36">143</td>
+                  <td width="275">DD UTTAR PRADESH</td>
+                  <td width="101">470</td>
+                  </tr>
+                  <tr>
+                  <td width="36">144</td>
+                  <td width="275">DD BANGLA</td>
+                  <td width="101">471</td>
+                  </tr>
+                  <tr>
+                  <td width="36">145</td>
+                  <td width="275">INH 24*7</td>
+                  <td width="101">472</td>
+                  </tr>
+                  <tr>
+                  <td width="36">146</td>
+                  <td width="275">ND NEWS 24</td>
+                  <td width="101">473</td>
+                  </tr>
+                  <tr>
+                  <td width="36">147</td>
+                  <td width="275">DD RAJSTHAN</td>
+                  <td width="101">475</td>
+                  </tr>
+                  <tr>
+                  <td width="36">148</td>
+                  <td width="275">DD KARNATKA</td>
+                  <td width="101">476</td>
+                  </tr>
+                  <tr>
+                  <td width="36">149</td>
+                  <td width="275">DD KASHIR</td>
+                  <td width="101">478</td>
+                  </tr>
+                  <tr>
+                  <td width="36">150</td>
+                  <td width="275">DD BIHAR</td>
+                  <td width="101">481</td>
+                  </tr>
+                  <tr>
+                  <td width="36">151</td>
+                  <td width="275">MAHAA NEWS&#8217;</td>
+                  <td width="101">482</td>
+                  </tr>
+                  <tr>
+                  <td width="36">152</td>
+                  <td width="275">BHARAT SAMACHAR</td>
+                  <td width="101">484</td>
+                  </tr>
+                  <tr>
+                  <td width="36">153</td>
+                  <td width="275">NEWS 11 BHARAT</td>
+                  <td width="101">485</td>
+                  </tr>
+                  <tr>
+                  <td width="36">154</td>
+                  <td width="275">NEWS STATE UTTAR  PRADESH</td>
+                  <td width="101">487</td>
+                  </tr>
+                  <tr>
+                  <td width="36">155</td>
+                  <td width="275">MKN</td>
+                  <td width="101">489</td>
+                  </tr>
+                  <tr>
+                  <td width="36">156</td>
+                  <td width="275">NAXATRA NEWS</td>
+                  <td width="101">493</td>
+                  </tr>
+                  <tr>
+                  <td width="36">157</td>
+                  <td width="275">NEWS 18 ASSAM/NORTH EAST</td>
+                  <td width="101">494</td>
+                  </tr>
+                  <tr>
+                  <td width="36">158</td>
+                  <td width="275">ABP GANGA</td>
+                  <td width="101">495</td>
+                  </tr>
+                  <tr>
+                  <td width="36">159</td>
+                  <td width="275">CNN NEWS</td>
+                  <td width="101">527</td>
+                  </tr>
+                  <tr>
+                  <td width="36">160</td>
+                  <td width="275">INDIA TODAY</td>
+                  <td width="101">530</td>
+                  </tr>
+                  <tr>
+                  <td width="36">161</td>
+                  <td width="275">REPUBLIC TV</td>
+                  <td width="101">532</td>
+                  </tr>
+                  <tr>
+                  <td width="36">162</td>
+                  <td width="275">SAHARA NCR</td>
+                  <td width="101">533</td>
+                  </tr>
+                  <tr>
+                  <td width="36">163</td>
+                  <td width="275">SAHARA NET</td>
+                  <td width="101">534</td>
+                  </tr>
+                  <tr>
+                  <td width="36">164</td>
+                  <td width="275">HISTORY SD</td>
+                  <td width="101">618</td>
+                  </tr>
+                  <tr>
+                  <td width="36">165</td>
+                  <td width="275">NGC SD</td>
+                  <td width="101">620</td>
+                  </tr>
+                  <tr>
+                  <td width="36">166</td>
+                  <td width="275">NG WILD SD</td>
+                  <td width="101">622</td>
+                  </tr>
+                  <tr>
+                  <td width="36">167</td>
+                  <td width="275">FOOD FOOD</td>
+                  <td width="101">624</td>
+                  </tr>
+                  <tr>
+                  <td width="36">168</td>
+                  <td width="275">DISNEY CHANNELS</td>
+                  <td width="101">626</td>
+                  </tr>
+                  <tr>
+                  <td width="36">169</td>
+                  <td width="275">NICK SD</td>
+                  <td width="101">627</td>
+                  </tr>
+                  <tr>
+                  <td width="36">170</td>
+                  <td width="275">GUBBARE</td>
+                  <td width="101">629</td>
+                  </tr>
+                  <tr>
+                  <td width="36">171</td>
+                  <td width="275">SONY YAH</td>
+                  <td width="101">630</td>
+                  </tr>
+                  <tr>
+                  <td width="36">172</td>
+                  <td width="275">HUNGAMA</td>
+                  <td width="101">632</td>
+                  </tr>
+                  <tr>
+                  <td width="36">173</td>
+                  <td width="275">Super Hungama</td>
+                  <td width="101">633</td>
+                  </tr>
+                  <tr>
+                  <td width="36">174</td>
+                  <td width="275">SONIC</td>
+                  <td width="101">634</td>
+                  </tr>
+                  <tr>
+                  <td width="36">175</td>
+                  <td width="275">DOSCOVERY KIDS</td>
+                  <td width="101">635</td>
+                  </tr>
+                  <tr>
+                  <td width="36">176</td>
+                  <td width="275">NICK JR.</td>
+                  <td width="101">636</td>
+                  </tr>
+                  <tr>
+                  <td width="36">177</td>
+                  <td width="275">DISNEY JR.</td>
+                  <td width="101">637</td>
+                  </tr>
+                  <tr>
+                  <td width="36">178</td>
+                  <td width="275">CARTOON NERWORK</td>
+                  <td width="101">638</td>
+                  </tr>
+                  <tr>
+                  <td width="36">179</td>
+                  <td width="275">POGO</td>
+                  <td width="101">639</td>
+                  </tr>
+                  <tr>
+                  <td width="36">180</td>
+                  <td width="275">SONY MARATHI</td>
+                  <td width="101">691</td>
+                  </tr>
+                  <tr>
+                  <td width="36">181</td>
+                  <td width="275">ABP ANANDA</td>
+                  <td width="101">693</td>
+                  </tr>
+                  <tr>
+                  <td width="36">182</td>
+                  <td width="275">TV 9 TELGU</td>
+                  <td width="101">694</td>
+                  </tr>
+                  <tr>
+                  <td width="36">183</td>
+                  <td width="275">EPIC</td>
+                  <td width="101">696</td>
+                  </tr>
+                  <tr>
+                  <td width="36">184</td>
+                  <td width="275">DISCOVERY SCIENCE</td>
+                  <td width="101">697</td>
+                  </tr>
+                  <tr>
+                  <td width="36">185</td>
+                  <td width="275">DISCOVERY TURBO</td>
+                  <td width="101">698</td>
+                  </tr>
+                  <tr>
+                  <td width="36">186</td>
+                  <td width="275">B4U BHOJPURI</td>
+                  <td width="101">700</td>
+                  </tr>
+                  <tr>
+                  <td width="36">187</td>
+                  <td width="275">DD GUJRATI</td>
+                  <td width="101">701</td>
+                  </tr>
+                  <tr>
+                  <td width="36">188</td>
+                  <td width="275">DD MP</td>
+                  <td width="101">702</td>
+                  </tr>
+                  <tr>
+                  <td width="36">189</td>
+                  <td width="275">DD ANDRA PREDEH</td>
+                  <td width="101">703</td>
+                  </tr>
+                  <tr>
+                  <td width="36">190</td>
+                  <td width="275">TV9 MARATHI</td>
+                  <td width="101">704</td>
+                  </tr>
+                  <tr>
+                  <td width="36">191</td>
+                  <td width="275">ABP MAJHA</td>
+                  <td width="101">708</td>
+                  </tr>
+                  <tr>
+                  <td width="36">192</td>
+                  <td width="275">CHADIKLA TIME TV</td>
+                  <td width="101">709</td>
+                  </tr>
+                  <tr>
+                  <td width="36">193</td>
+                  <td width="275">EZ MALL</td>
+                  <td width="101">710</td>
+                  </tr>
+                  <tr>
+                  <td width="36">194</td>
+                  <td width="275">ARGUS</td>
+                  <td width="101">711</td>
+                  </tr>
+                  <tr>
+                  <td width="36">195</td>
+                  <td width="275">BADAKHABAR</td>
+                  <td width="101">712</td>
+                  </tr>
+                  <tr>
+                  <td width="36">196</td>
+                  <td width="275">PARAS TV</td>
+                  <td width="101">713</td>
+                  </tr>
+                  <tr>
+                  <td width="36">197</td>
+                  <td width="275">CAPTAIN TV</td>
+                  <td width="101">714</td>
+                  </tr>
+                  <tr>
+                  <td width="36">198</td>
+                  <td width="275">MAKKAL TV</td>
+                  <td width="101">715</td>
+                  </tr>
+                  <tr>
+                  <td width="36">199</td>
+                  <td width="275">VASANTH TV</td>
+                  <td width="101">716</td>
+                  </tr>
+                  <tr>
+                  <td width="36">200</td>
+                  <td width="275">POLIMER NEWS</td>
+                  <td width="101">718</td>
+                  </tr>
+                  <tr>
+                  <td width="36">201</td>
+                  <td width="275">GYAN DARSHAN 1</td>
+                  <td width="101">726</td>
+                  </tr>
+                  <tr>
+                  <td width="36">202</td>
+                  <td width="275">LOKSAHI MARATHI</td>
+                  <td width="101">750</td>
+                  </tr>
+                  <tr>
+                  <td width="36">203</td>
+                  <td width="275">KALINGA TV</td>
+                  <td width="101">992</td>
+                  </tr>
+                  <tr>
+                  <td width="36">204</td>
+                  <td width="275">NANDIGHOSH TV</td>
+                  <td width="101">993</td>
+                  </tr>
+                  <tr>
+                  <td width="36">205</td>
+                  <td width="275">DD ODIA</td>
+                  <td width="101">994</td>
+                  </tr>
+                  <tr>
+                  <td width="36">206</td>
+                  <td width="275">SAAM TV</td>
+                  <td width="101">997</td>
+                  </tr>
+                  </tbody>
+              
+            </table>
+        </div>
+
+        <div class="table-title"> </div>
+        <!-- Table 3 -->
+        <div>
+            <div class="table-title">Table-699</div>
+            <table>
+
+              <!-- 699 -->
+                  <tbody>
+                  <tr>
+                  <td width="38">S. No</td>
+                  <td width="246">Channel Name</td>
+                  <td width="90">Channel Number</td>
+                  </tr>
+                  <tr>
+                  <td width="38">1</td>
+                  <td width="246">STAR PLUS HD</td>
+                  <td width="90">101</td>
+                  </tr>
+                  <tr>
+                  <td width="38">2</td>
+                  <td width="246">SONY ENTERTAINMENT HD</td>
+                  <td width="90">102</td>
+                  </tr>
+                  <tr>
+                  <td width="38">3</td>
+                  <td width="246">COLORS HD</td>
+                  <td width="90">106</td>
+                  </tr>
+                  <tr>
+                  <td width="38">4</td>
+                  <td width="246">DD NATIONAL HD</td>
+                  <td width="90">110</td>
+                  </tr>
+                  <tr>
+                  <td width="38">5</td>
+                  <td width="246">SONY PAL</td>
+                  <td width="90">125</td>
+                  </tr>
+                  <tr>
+                  <td width="38">6</td>
+                  <td width="246">BINDASS</td>
+                  <td width="90">128</td>
+                  </tr>
+                  <tr>
+                  <td width="38">7</td>
+                  <td width="246">STAR UTSAV</td>
+                  <td width="90">144</td>
+                  </tr>
+                  <tr>
+                  <td width="38">8</td>
+                  <td width="246">COLORS RISHTEY</td>
+                  <td width="90">145</td>
+                  </tr>
+                  <tr>
+                  <td width="38">9</td>
+                  <td width="246">DANGAL</td>
+                  <td width="90">146</td>
+                  </tr>
+                  <tr>
+                  <td width="38">10</td>
+                  <td width="246">DILLAGI</td>
+                  <td width="90">149</td>
+                  </tr>
+                  <tr>
+                  <td width="38">11</td>
+                  <td width="246">MANORANJAN GRAND</td>
+                  <td width="90">150</td>
+                  </tr>
+                  <tr>
+                  <td width="38">12</td>
+                  <td width="246">SAMAY SAHARA ONE</td>
+                  <td width="90">152</td>
+                  </tr>
+                  <tr>
+                  <td width="38">13</td>
+                  <td width="246">DD KISAN</td>
+                  <td width="90">153</td>
+                  </tr>
+                  <tr>
+                  <td width="38">14</td>
+                  <td width="246">DD BHARTI</td>
+                  <td width="90">154</td>
+                  </tr>
+                  <tr>
+                  <td width="38">15</td>
+                  <td width="246">MAIBOLI</td>
+                  <td width="90">157</td>
+                  </tr>
+                  <tr>
+                  <td width="38">16</td>
+                  <td width="246">ISHARA TV</td>
+                  <td width="90">159</td>
+                  </tr>
+                  <tr>
+                  <td width="38">17</td>
+                  <td width="246">THQ</td>
+                  <td width="90">160</td>
+                  </tr>
+                  <tr>
+                  <td width="38">18</td>
+                  <td width="246">KHUSHBOO TV</td>
+                  <td width="90">161</td>
+                  </tr>
+                  <tr>
+                  <td width="38">19</td>
+                  <td width="246">COLORS CINEPLEX HD</td>
+                  <td width="90">168</td>
+                  </tr>
+                  <tr>
+                  <td width="38">20</td>
+                  <td width="246">STAR GOLD 2</td>
+                  <td width="90">179</td>
+                  </tr>
+                  <tr>
+                  <td width="38">21</td>
+                  <td width="246">SONY MAX 2</td>
+                  <td width="90">181</td>
+                  </tr>
+                  <tr>
+                  <td width="38">22</td>
+                  <td width="246">SONY WAH</td>
+                  <td width="90">184</td>
+                  </tr>
+                  <tr>
+                  <td width="38">23</td>
+                  <td width="246">UTV MOVIES</td>
+                  <td width="90">185</td>
+                  </tr>
+                  <tr>
+                  <td width="38">24</td>
+                  <td width="246">UTV ACTION</td>
+                  <td width="90">189</td>
+                  </tr>
+                  <tr>
+                  <td width="38">25</td>
+                  <td width="246">STAR UTSAV MOVIES</td>
+                  <td width="90">191</td>
+                  </tr>
+                  <tr>
+                  <td width="38">26</td>
+                  <td width="246">DABANG</td>
+                  <td width="90">195</td>
+                  </tr>
+                  <tr>
+                  <td width="38">27</td>
+                  <td width="246">FILMY</td>
+                  <td width="90">196</td>
+                  </tr>
+                  <tr>
+                  <td width="38">28</td>
+                  <td width="246">B4U KADAK</td>
+                  <td width="90">197</td>
+                  </tr>
+                  <tr>
+                  <td width="38">29</td>
+                  <td width="246">B4U MOVIES</td>
+                  <td width="90">198</td>
+                  </tr>
+                  <tr>
+                  <td width="38">30</td>
+                  <td width="246">GARGAUR</td>
+                  <td width="90">199</td>
+                  </tr>
+                  <tr>
+                  <td width="38">31</td>
+                  <td width="246">DANGAL2</td>
+                  <td width="90">200</td>
+                  </tr>
+                  <tr>
+                  <td width="38">32</td>
+                  <td width="246">MANORANJAN MOVIES</td>
+                  <td width="90">208</td>
+                  </tr>
+                  <tr>
+                  <td width="38">33</td>
+                  <td width="246">OSCAR MOVIES</td>
+                  <td width="90">211</td>
+                  </tr>
+                  <tr>
+                  <td width="38">34</td>
+                  <td width="246">MAHA MOVIES</td>
+                  <td width="90">214</td>
+                  </tr>
+                  <tr>
+                  <td width="38">35</td>
+                  <td width="246">FKT MARATHI</td>
+                  <td width="90">216</td>
+                  </tr>
+                  <tr>
+                  <td width="38">36</td>
+                  <td width="246">GOLDMINE BOLLYWOOD</td>
+                  <td width="90">217</td>
+                  </tr>
+                  <tr>
+                  <td width="38">37</td>
+                  <td width="246">WOW CINEMA</td>
+                  <td width="90">218</td>
+                  </tr>
+                  <tr>
+                  <td width="38">38</td>
+                  <td width="246">ABZY MOVIES</td>
+                  <td width="90">219</td>
+                  </tr>
+                  <tr>
+                  <td width="38">39</td>
+                  <td width="246">ABZY DAKAD</td>
+                  <td width="90">220</td>
+                  </tr>
+                  <tr>
+                  <td width="38">40</td>
+                  <td width="246">BEFLIX MOVIES</td>
+                  <td width="90">221</td>
+                  </tr>
+                  <tr>
+                  <td width="38">41</td>
+                  <td width="246">CINEMA TV</td>
+                  <td width="90">222</td>
+                  </tr>
+                  <tr>
+                  <td width="38">42</td>
+                  <td width="246">SHAMROO</td>
+                  <td width="90">224</td>
+                  </tr>
+                  <tr>
+                  <td width="38">43</td>
+                  <td width="246">PTC PUNJABI GOLD</td>
+                  <td width="90">225</td>
+                  </tr>
+                  <tr>
+                  <td width="38">44</td>
+                  <td width="246">ABZY COOL</td>
+                  <td width="90">229</td>
+                  </tr>
+                  <tr>
+                  <td width="38">45</td>
+                  <td width="246">MTV HD</td>
+                  <td width="90">235</td>
+                  </tr>
+                  <tr>
+                  <td width="38">46</td>
+                  <td width="246">MTV BEATS HD</td>
+                  <td width="90">237</td>
+                  </tr>
+                  <tr>
+                  <td width="38">47</td>
+                  <td width="246">ZING</td>
+                  <td width="90">239</td>
+                  </tr>
+                  <tr>
+                  <td width="38">48</td>
+                  <td width="246">I LOVE</td>
+                  <td width="90">244</td>
+                  </tr>
+                  <tr>
+                  <td width="38">49</td>
+                  <td width="246">9X JALWA</td>
+                  <td width="90">246</td>
+                  </tr>
+                  <tr>
+                  <td width="38">50</td>
+                  <td width="246">PITAARA</td>
+                  <td width="90">248</td>
+                  </tr>
+                  <tr>
+                  <td width="38">51</td>
+                  <td width="246">9XM</td>
+                  <td width="90">249</td>
+                  </tr>
+                  <tr>
+                  <td width="38">52</td>
+                  <td width="246">MASTIII</td>
+                  <td width="90">250</td>
+                  </tr>
+                  <tr>
+                  <td width="38">53</td>
+                  <td width="246">MUSIC INDIA</td>
+                  <td width="90">252</td>
+                  </tr>
+                  <tr>
+                  <td width="38">54</td>
+                  <td width="246">B4U MUSIC</td>
+                  <td width="90">253</td>
+                  </tr>
+                  <tr>
+                  <td width="38">55</td>
+                  <td width="246">PTC PUNJABI</td>
+                  <td width="90">254</td>
+                  </tr>
+                  <tr>
+                  <td width="38">56</td>
+                  <td width="246">PTC CHAK DE</td>
+                  <td width="90">255</td>
+                  </tr>
+                  <tr>
+                  <td width="38">57</td>
+                  <td width="246">MH ONE MUSIC</td>
+                  <td width="90">256</td>
+                  </tr>
+                  <tr>
+                  <td width="38">58</td>
+                  <td width="246">SANGEET BHOJPURI</td>
+                  <td width="90">258</td>
+                  </tr>
+                  <tr>
+                  <td width="38">59</td>
+                  <td width="246">GOLDMINE</td>
+                  <td width="90">259</td>
+                  </tr>
+                  <tr>
+                  <td width="38">60</td>
+                  <td width="246">9X JHAKAAS</td>
+                  <td width="90">260</td>
+                  </tr>
+                  <tr>
+                  <td width="38">61</td>
+                  <td width="246">BALLE BALLE</td>
+                  <td width="90">262</td>
+                  </tr>
+                  <tr>
+                  <td width="38">62</td>
+                  <td width="246">M TUNE</td>
+                  <td width="90">263</td>
+                  </tr>
+                  <tr>
+                  <td width="38">63</td>
+                  <td width="246">PUNJABI HITS</td>
+                  <td width="90">265</td>
+                  </tr>
+                  <tr>
+                  <td width="38">64</td>
+                  <td width="246">9X TASHAN</td>
+                  <td width="90">266</td>
+                  </tr>
+                  <tr>
+                  <td width="38">65</td>
+                  <td width="246">PTC MUSIC</td>
+                  <td width="90">267</td>
+                  </tr>
+                  <tr>
+                  <td width="38">66</td>
+                  <td width="246">SHOW BOX</td>
+                  <td width="90">268</td>
+                  </tr>
+                  <tr>
+                  <td width="38">67</td>
+                  <td width="246">E24</td>
+                  <td width="90">269</td>
+                  </tr>
+                  <tr>
+                  <td width="38">68</td>
+                  <td width="246">VH1 HD</td>
+                  <td width="90">270</td>
+                  </tr>
+                  <tr>
+                  <td width="38">69</td>
+                  <td width="246">SANGEET BANGLA</td>
+                  <td width="90">272</td>
+                  </tr>
+                  <tr>
+                  <td width="38">70</td>
+                  <td width="246">EUROSPORT HD</td>
+                  <td width="90">336</td>
+                  </tr>
+                  <tr>
+                  <td width="38">71</td>
+                  <td width="246">DD SPORTS</td>
+                  <td width="90">337</td>
+                  </tr>
+                  <tr>
+                  <td width="38">72</td>
+                  <td width="246">SANSKAR</td>
+                  <td width="90">350</td>
+                  </tr>
+                  <tr>
+                  <td width="38">73</td>
+                  <td width="246">ASTHA BHAJAN</td>
+                  <td width="90">351</td>
+                  </tr>
+                  <tr>
+                  <td width="38">74</td>
+                  <td width="246">SATSANG</td>
+                  <td width="90">352</td>
+                  </tr>
+                  <tr>
+                  <td width="38">75</td>
+                  <td width="246">ASTHA TV</td>
+                  <td width="90">353</td>
+                  </tr>
+                  <tr>
+                  <td width="38">76</td>
+                  <td width="246">VADIC</td>
+                  <td width="90">354</td>
+                  </tr>
+                  <tr>
+                  <td width="38">77</td>
+                  <td width="246">SARV DHRAM SANGAM</td>
+                  <td width="90">355</td>
+                  </tr>
+                  <tr>
+                  <td width="38">78</td>
+                  <td width="246">SADHNA</td>
+                  <td width="90">356</td>
+                  </tr>
+                  <tr>
+                  <td width="38">79</td>
+                  <td width="246">DIVYA</td>
+                  <td width="90">358</td>
+                  </tr>
+                  <tr>
+                  <td width="38">80</td>
+                  <td width="246">SHARDHA MH ONE</td>
+                  <td width="90">359</td>
+                  </tr>
+                  <tr>
+                  <td width="38">81</td>
+                  <td width="246">ISWAR VHAKTI</td>
+                  <td width="90">360</td>
+                  </tr>
+                  <tr>
+                  <td width="38">82</td>
+                  <td width="246">PACE OF MIND</td>
+                  <td width="90">361</td>
+                  </tr>
+                  <tr>
+                  <td width="38">83</td>
+                  <td width="246">SANSKRITI TV</td>
+                  <td width="90">362</td>
+                  </tr>
+                  <tr>
+                  <td width="38">84</td>
+                  <td width="246">ANJAN TV</td>
+                  <td width="90">363</td>
+                  </tr>
+                  <tr>
+                  <td width="38">85</td>
+                  <td width="246">SHUBH TV</td>
+                  <td width="90">364</td>
+                  </tr>
+                  <tr>
+                  <td width="38">86</td>
+                  <td width="246">Fateh TV</td>
+                  <td width="90">365</td>
+                  </tr>
+                  <tr>
+                  <td width="38">87</td>
+                  <td width="246">DISHA TV</td>
+                  <td width="90">366</td>
+                  </tr>
+                  <tr>
+                  <td width="38">88</td>
+                  <td width="246">JINVANI</td>
+                  <td width="90">367</td>
+                  </tr>
+                  <tr>
+                  <td width="38">89</td>
+                  <td width="246">BHAKTI SAGAR</td>
+                  <td width="90">368</td>
+                  </tr>
+                  <tr>
+                  <td width="38">90</td>
+                  <td width="246">AASEERVATHAM TV</td>
+                  <td width="90">369</td>
+                  </tr>
+                  <tr>
+                  <td width="38">91</td>
+                  <td width="246">CHANNELS WIN</td>
+                  <td width="90">370</td>
+                  </tr>
+                  <tr>
+                  <td width="38">92</td>
+                  <td width="246">SHUBH CINEMA</td>
+                  <td width="90">371</td>
+                  </tr>
+                  <tr>
+                  <td width="38">93</td>
+                  <td width="246">PTC SIMARN</td>
+                  <td width="90">372</td>
+                  </tr>
+                  <tr>
+                  <td width="38">94</td>
+                  <td width="246">SANT VANI</td>
+                  <td width="90">373</td>
+                  </tr>
+                  <tr>
+                  <td width="38">95</td>
+                  <td width="246">CNBC AWAAZ</td>
+                  <td width="90">401</td>
+                  </tr>
+                  <tr>
+                  <td width="38">96</td>
+                  <td width="246">ZEE NEWS</td>
+                  <td width="90">404</td>
+                  </tr>
+                  <tr>
+                  <td width="38">97</td>
+                  <td width="246">NEWS 18 INDIA</td>
+                  <td width="90">430</td>
+                  </tr>
+                  <tr>
+                  <td width="38">98</td>
+                  <td width="246">ZEE HINDUSTAN</td>
+                  <td width="90">410</td>
+                  </tr>
+                  <tr>
+                  <td width="38">99</td>
+                  <td width="246">AAJTAK HD</td>
+                  <td width="90">411</td>
+                  </tr>
+                  <tr>
+                  <td width="38">100</td>
+                  <td width="246">ZEE UTTAR PRADESH UTTARAKHAND</td>
+                  <td width="90">412</td>
+                  </tr>
+                  <tr>
+                  <td width="38">101</td>
+                  <td width="246">ZEE MADHYA PRADESH CHATTISGARH</td>
+                  <td width="90">413</td>
+                  </tr>
+                  <tr>
+                  <td width="38">102</td>
+                  <td width="246">NEWS 18 UTTAR PRADESH/UTTARAKHAND</td>
+                  <td width="90">414</td>
+                  </tr>
+                  <tr>
+                  <td width="38">103</td>
+                  <td width="246">NEWS 18 MADHYA PRADESH/CHHATTISGARH</td>
+                  <td width="90">416</td>
+                  </tr>
+                  <tr>
+                  <td width="38">104</td>
+                  <td width="246">ZEE PUNJAB HARYANA HIMACHAL</td>
+                  <td width="90">417</td>
+                  </tr>
+                  <tr>
+                  <td width="38">105</td>
+                  <td width="246">GNT</td>
+                  <td width="90">418</td>
+                  </tr>
+                  <tr>
+                  <td width="38">106</td>
+                  <td width="246">NEWS 18 RAJSTHAN</td>
+                  <td width="90">419</td>
+                  </tr>
+                  <tr>
+                  <td width="38">107</td>
+                  <td width="246">ZEE SALAAM</td>
+                  <td width="90">420</td>
+                  </tr>
+                  <tr>
+                  <td width="38">108</td>
+                  <td width="246">ZEE RAJSTHAN</td>
+                  <td width="90">421</td>
+                  </tr>
+                  <tr>
+                  <td width="38">109</td>
+                  <td width="246">NEWS 18 PUNJAB/HARYANA/HIMACHAL</td>
+                  <td width="90">422</td>
+                  </tr>
+                  <tr>
+                  <td width="38">110</td>
+                  <td width="246">NEWS 18 URDU</td>
+                  <td width="90">423</td>
+                  </tr>
+                  <tr>
+                  <td width="38">111</td>
+                  <td width="246">ZEE BIHAR JHARKHAND</td>
+                  <td width="90">425</td>
+                  </tr>
+                  <tr>
+                  <td width="38">112</td>
+                  <td width="246">ABP NEWS</td>
+                  <td width="90">429</td>
+                  </tr>
+                  <tr>
+                  <td width="38">113</td>
+                  <td width="246">INDIA TV</td>
+                  <td width="90">405</td>
+                  </tr>
+                  <tr>
+                  <td width="38">114</td>
+                  <td width="246">REPUBLIC BHARAT TV</td>
+                  <td width="90">432</td>
+                  </tr>
+                  <tr>
+                  <td width="38">115</td>
+                  <td width="246">NEWS NATION</td>
+                  <td width="90">433</td>
+                  </tr>
+                  <tr>
+                  <td width="38">116</td>
+                  <td width="246">TV9 BHARATVARSH</td>
+                  <td width="90">434</td>
+                  </tr>
+                  <tr>
+                  <td width="38">117</td>
+                  <td width="246">KHABAR FAST</td>
+                  <td width="90">435</td>
+                  </tr>
+                  <tr>
+                  <td width="38">118</td>
+                  <td width="246">ZEE 24 KALAK</td>
+                  <td width="90">436</td>
+                  </tr>
+                  <tr>
+                  <td width="38">119</td>
+                  <td width="246">PTC NEWS</td>
+                  <td width="90">437</td>
+                  </tr>
+                  <tr>
+                  <td width="38">120</td>
+                  <td width="246">KHABREIN ABHI TAK</td>
+                  <td width="90">438</td>
+                  </tr>
+                  <tr>
+                  <td width="38">121</td>
+                  <td width="246">NEWS 18 BIHAR/JHAKHAND</td>
+                  <td width="90">439</td>
+                  </tr>
+                  <tr>
+                  <td width="38">122</td>
+                  <td width="246">HINDI KHABAR</td>
+                  <td width="90">440</td>
+                  </tr>
+                  <tr>
+                  <td width="38">123</td>
+                  <td width="246">DD NEWS</td>
+                  <td width="90">441</td>
+                  </tr>
+                  <tr>
+                  <td width="38">124</td>
+                  <td width="246">INDIA NEWS</td>
+                  <td width="90">442</td>
+                  </tr>
+                  <tr>
+                  <td width="38">125</td>
+                  <td width="246">IND 24</td>
+                  <td width="90">443</td>
+                  </tr>
+                  <tr>
+                  <td width="38">126</td>
+                  <td width="246">NDTV INDIA</td>
+                  <td width="90">445</td>
+                  </tr>
+                  <tr>
+                  <td width="38">127</td>
+                  <td width="246">NEWS 24</td>
+                  <td width="90">446</td>
+                  </tr>
+                  <tr>
+                  <td width="38">128</td>
+                  <td width="246">BANSAL NEWS</td>
+                  <td width="90">447</td>
+                  </tr>
+                  <tr>
+                  <td width="38">129</td>
+                  <td width="246">JAN TV</td>
+                  <td width="90">448</td>
+                  </tr>
+                  <tr>
+                  <td width="38">130</td>
+                  <td width="246">PRADHIN TIME</td>
+                  <td width="90">449</td>
+                  </tr>
+                  <tr>
+                  <td width="38">131</td>
+                  <td width="246">NEWS STATE UTTAR PRADESH</td>
+                  <td width="90">450</td>
+                  </tr>
+                  <tr>
+                  <td width="38">132</td>
+                  <td width="246">INDIA NEWS HARYANA</td>
+                  <td width="90">451</td>
+                  </tr>
+                  <tr>
+                  <td width="38">133</td>
+                  <td width="246">INDIA NEWS RAJSTHAN</td>
+                  <td width="90">452</td>
+                  </tr>
+                  <tr>
+                  <td width="38">134</td>
+                  <td width="246">INDIA NEWS MADHYA PRADESH</td>
+                  <td width="90">453</td>
+                  </tr>
+                  <tr>
+                  <td width="38">135</td>
+                  <td width="246">INDIA NEWS PUNJAB HARYANA</td>
+                  <td width="90">454</td>
+                  </tr>
+                  <tr>
+                  <td width="38">136</td>
+                  <td width="246">MH ONE NEWS</td>
+                  <td width="90">455</td>
+                  </tr>
+                  <tr>
+                  <td width="38">137</td>
+                  <td width="246">INDIA NEWS UTTAR PRADESH</td>
+                  <td width="90">456</td>
+                  </tr>
+                  <tr>
+                  <td width="38">138</td>
+                  <td width="246">SANDESH NEWS</td>
+                  <td width="90">458</td>
+                  </tr>
+                  <tr>
+                  <td width="38">139</td>
+                  <td width="246">NEWS X</td>
+                  <td width="90">460</td>
+                  </tr>
+                  <tr>
+                  <td width="38">140</td>
+                  <td width="246">SHUDARSAN NEWS</td>
+                  <td width="90">461</td>
+                  </tr>
+                  <tr>
+                  <td width="38">141</td>
+                  <td width="246">DD INDIA HD</td>
+                  <td width="90">462</td>
+                  </tr>
+                  <tr>
+                  <td width="38">142</td>
+                  <td width="246">SANSAD TV HD</td>
+                  <td width="90">463</td>
+                  </tr>
+                  <tr>
+                  <td width="38">143</td>
+                  <td width="246">DD URDU</td>
+                  <td width="90">464</td>
+                  </tr>
+                  <tr>
+                  <td width="38">144</td>
+                  <td width="246">DD TAMIL NANDU</td>
+                  <td width="90">465</td>
+                  </tr>
+                  <tr>
+                  <td width="38">145</td>
+                  <td width="246">DD TELANGNA</td>
+                  <td width="90">466</td>
+                  </tr>
+                  <tr>
+                  <td width="38">146</td>
+                  <td width="246">DD KERLA</td>
+                  <td width="90">469</td>
+                  </tr>
+                  <tr>
+                  <td width="38">147</td>
+                  <td width="246">DD UTTAR PRADESH</td>
+                  <td width="90">470</td>
+                  </tr>
+                  <tr>
+                  <td width="38">148</td>
+                  <td width="246">DD BANGLA</td>
+                  <td width="90">471</td>
+                  </tr>
+                  <tr>
+                  <td width="38">149</td>
+                  <td width="246">INH 24*7</td>
+                  <td width="90">472</td>
+                  </tr>
+                  <tr>
+                  <td width="38">150</td>
+                  <td width="246">ND NEWS 24</td>
+                  <td width="90">473</td>
+                  </tr>
+                  <tr>
+                  <td width="38">151</td>
+                  <td width="246">DD RAJSTHAN</td>
+                  <td width="90">475</td>
+                  </tr>
+                  <tr>
+                  <td width="38">152</td>
+                  <td width="246">DD KARNATKA</td>
+                  <td width="90">476</td>
+                  </tr>
+                  <tr>
+                  <td width="38">153</td>
+                  <td width="246">DD KASHIR</td>
+                  <td width="90">478</td>
+                  </tr>
+                  <tr>
+                  <td width="38">154</td>
+                  <td width="246">DD BIHAR</td>
+                  <td width="90">481</td>
+                  </tr>
+                  <tr>
+                  <td width="38">155</td>
+                  <td width="246">MAHAA NEWS&#8217;</td>
+                  <td width="90">482</td>
+                  </tr>
+                  <tr>
+                  <td width="38">156</td>
+                  <td width="246">BHARAT SAMACHAR</td>
+                  <td width="90">484</td>
+                  </tr>
+                  <tr>
+                  <td width="38">157</td>
+                  <td width="246">NEWS 11 BHARAT</td>
+                  <td width="90">485</td>
+                  </tr>
+                  <tr>
+                  <td width="38">158</td>
+                  <td width="246">NEWS STATE UTTAR  PRADESH</td>
+                  <td width="90">487</td>
+                  </tr>
+                  <tr>
+                  <td width="38">159</td>
+                  <td width="246">MKN</td>
+                  <td width="90">489</td>
+                  </tr>
+                  <tr>
+                  <td width="38">160</td>
+                  <td width="246">NAXATRA NEWS</td>
+                  <td width="90">493</td>
+                  </tr>
+                  <tr>
+                  <td width="38">161</td>
+                  <td width="246">NEWS 18 ASSAM/NORTH EAST</td>
+                  <td width="90">494</td>
+                  </tr>
+                  <tr>
+                  <td width="38">162</td>
+                  <td width="246">ABP GANGA</td>
+                  <td width="90">495</td>
+                  </tr>
+                  <tr>
+                  <td width="38">163</td>
+                  <td width="246">CNBC TV 18</td>
+                  <td width="90">513</td>
+                  </tr>
+                  <tr>
+                  <td width="38">164</td>
+                  <td width="246">CNN NEWS 18</td>
+                  <td width="90">523</td>
+                  </tr>
+                  <tr>
+                  <td width="38">165</td>
+                  <td width="246">CNN NEWS</td>
+                  <td width="90">527</td>
+                  </tr>
+                  <tr>
+                  <td width="38">166</td>
+                  <td width="246">INDIA TODAY</td>
+                  <td width="90">530</td>
+                  </tr>
+                  <tr>
+                  <td width="38">167</td>
+                  <td width="246">ALJAZEERA HD</td>
+                  <td width="90">531</td>
+                  </tr>
+                  <tr>
+                  <td width="38">168</td>
+                  <td width="246">REPUBLIC TV</td>
+                  <td width="90">532</td>
+                  </tr>
+                  <tr>
+                  <td width="38">169</td>
+                  <td width="246">SAHARA NCR</td>
+                  <td width="90">533</td>
+                  </tr>
+                  <tr>
+                  <td width="38">170</td>
+                  <td width="246">SAHARA NET</td>
+                  <td width="90">534</td>
+                  </tr>
+                  <tr>
+                  <td width="38">171</td>
+                  <td width="246">TRT WORLD HD</td>
+                  <td width="90">546</td>
+                  </tr>
+                  <tr>
+                  <td width="38">172</td>
+                  <td width="246">NHK WORLD JAPAN HD</td>
+                  <td width="90">548</td>
+                  </tr>
+                  <tr>
+                  <td width="38">173</td>
+                  <td width="246">DW TV HD</td>
+                  <td width="90">551</td>
+                  </tr>
+                  <tr>
+                  <td width="38">174</td>
+                  <td width="246">FOX LIFE HD</td>
+                  <td width="90">601</td>
+                  </tr>
+                  <tr>
+                  <td width="38">175</td>
+                  <td width="246">HISTORY TV18 HD</td>
+                  <td width="90">610</td>
+                  </tr>
+                  <tr>
+                  <td width="38">176</td>
+                  <td width="246">DISCOVERY HD WORLD</td>
+                  <td width="90">611</td>
+                  </tr>
+                  <tr>
+                  <td width="38">177</td>
+                  <td width="246">ANIMAL PLANET HD</td>
+                  <td width="90">612</td>
+                  </tr>
+                  <tr>
+                  <td width="38">178</td>
+                  <td width="246">FASHION TV HD</td>
+                  <td width="90">614</td>
+                  </tr>
+                  <tr>
+                  <td width="38">179</td>
+                  <td width="246">FOOD FOOD</td>
+                  <td width="90">624</td>
+                  </tr>
+                  <tr>
+                  <td width="38">180</td>
+                  <td width="246">NICK HD</td>
+                  <td width="90">625</td>
+                  </tr>
+                  <tr>
+                  <td width="38">181</td>
+                  <td width="246">BABY TV HD</td>
+                  <td width="90">628</td>
+                  </tr>
+                  <tr>
+                  <td width="38">182</td>
+                  <td width="246">GUBBARE</td>
+                  <td width="90">629</td>
+                  </tr>
+                  <tr>
+                  <td width="38">183</td>
+                  <td width="246">SONY YAH</td>
+                  <td width="90">630</td>
+                  </tr>
+                  <tr>
+                  <td width="38">184</td>
+                  <td width="246">SONIC</td>
+                  <td width="90">634</td>
+                  </tr>
+                  <tr>
+                  <td width="38">185</td>
+                  <td width="246">DOSCOVERY KIDS</td>
+                  <td width="90">635</td>
+                  </tr>
+                  <tr>
+                  <td width="38">186</td>
+                  <td width="246">NICK JR.</td>
+                  <td width="90">636</td>
+                  </tr>
+                  <tr>
+                  <td width="38">187</td>
+                  <td width="246">DISCOVERY ID HD</td>
+                  <td width="90">657</td>
+                  </tr>
+                  <tr>
+                  <td width="38">188</td>
+                  <td width="246">ABP ANANDA</td>
+                  <td width="90">693</td>
+                  </tr>
+                  <tr>
+                  <td width="38">189</td>
+                  <td width="246">TV 9 TELGU</td>
+                  <td width="90">694</td>
+                  </tr>
+                  <tr>
+                  <td width="38">190</td>
+                  <td width="246">TLC WORLD HD</td>
+                  <td width="90">695</td>
+                  </tr>
+                  <tr>
+                  <td width="38">191</td>
+                  <td width="246">EPIC</td>
+                  <td width="90">696</td>
+                  </tr>
+                  <tr>
+                  <td width="38">192</td>
+                  <td width="246">DISCOVERY SCIENCE</td>
+                  <td width="90">697</td>
+                  </tr>
+                  <tr>
+                  <td width="38">193</td>
+                  <td width="246">DISCOVERY TURBO</td>
+                  <td width="90">698</td>
+                  </tr>
+                  <tr>
+                  <td width="38">194</td>
+                  <td width="246">B4U BHOJPURI</td>
+                  <td width="90">700</td>
+                  </tr>
+                  <tr>
+                  <td width="38">195</td>
+                  <td width="246">DD GUJRATI</td>
+                  <td width="90">701</td>
+                  </tr>
+                  <tr>
+                  <td width="38">196</td>
+                  <td width="246">DD MP</td>
+                  <td width="90">702</td>
+                  </tr>
+                  <tr>
+                  <td width="38">197</td>
+                  <td width="246">DD ANDRA PREDEH</td>
+                  <td width="90">703</td>
+                  </tr>
+                  <tr>
+                  <td width="38">198</td>
+                  <td width="246">TV9 MARATHI</td>
+                  <td width="90">704</td>
+                  </tr>
+                  <tr>
+                  <td width="38">199</td>
+                  <td width="246">ABP MAJHA</td>
+                  <td width="90">708</td>
+                  </tr>
+                  <tr>
+                  <td width="38">200</td>
+                  <td width="246">CHADIKLA TIME TV</td>
+                  <td width="90">709</td>
+                  </tr>
+                  <tr>
+                  <td width="38">201</td>
+                  <td width="246">EZ MALL</td>
+                  <td width="90">710</td>
+                  </tr>
+                  <tr>
+                  <td width="38">202</td>
+                  <td width="246">ARGUS</td>
+                  <td width="90">711</td>
+                  </tr>
+                  <tr>
+                  <td width="38">203</td>
+                  <td width="246">BADAKHABAR</td>
+                  <td width="90">712</td>
+                  </tr>
+                  <tr>
+                  <td width="38">204</td>
+                  <td width="246">PARAS TV</td>
+                  <td width="90">713</td>
+                  </tr>
+                  <tr>
+                  <td width="38">205</td>
+                  <td width="246">CAPTAIN TV</td>
+                  <td width="90">714</td>
+                  </tr>
+                  <tr>
+                  <td width="38">206</td>
+                  <td width="246">MAKKAL TV</td>
+                  <td width="90">715</td>
+                  </tr>
+                  <tr>
+                  <td width="38">207</td>
+                  <td width="246">VASANTH TV</td>
+                  <td width="90">716</td>
+                  </tr>
+                  <tr>
+                  <td width="38">208</td>
+                  <td width="246">POLIMER NEWS</td>
+                  <td width="90">718</td>
+                  </tr>
+                  <tr>
+                  <td width="38">209</td>
+                  <td width="246">GYAN DARSHAN 1</td>
+                  <td width="90">726</td>
+                  </tr>
+                  <tr>
+                  <td width="38">210</td>
+                  <td width="246">LOKSAHI MARATHI</td>
+                  <td width="90">750</td>
+                  </tr>
+                  <tr>
+                  <td width="38">211</td>
+                  <td width="246">KALINGA TV</td>
+                  <td width="90">992</td>
+                  </tr>
+                  <tr>
+                  <td width="38">212</td>
+                  <td width="246">NANDIGHOSH TV</td>
+                  <td width="90">993</td>
+                  </tr>
+                  <tr>
+                  <td width="38">213</td>
+                  <td width="246">DD ODIA</td>
+                  <td width="90">994</td>
+                  </tr>
+                  <tr>
+                  <td width="38">214</td>
+                  <td width="246">SAAM TV</td>
+                  <td width="90">997</td>
+                  </tr>
+                  </tbody>
+              
+            </table>
+        </div>
+      
+    </div>
+
+    
+    <div class="table-container">
+ 
+        <!-- Table 4 -->
+        <div>
+          <div class="table-title">Table-999</div>
+          <table>
+              <!-- 999 (231) -->
+                <tbody>
+                <tr>
+                <td width="33">S. No</td>
+                <td width="184">Channel Name</td>
+                <td width="87">Channel Number</td>
+                </tr>
+                <tr>
+                <td width="33">1</td>
+                <td width="184">STAR PLUS HD</td>
+                <td width="87">101</td>
+                </tr>
+                <tr>
+                <td width="33">2</td>
+                <td width="184">SONY ENTERTAINMENT HD</td>
+                <td width="87">102</td>
+                </tr>
+                <tr>
+                <td width="33">3</td>
+                <td width="184">SONY SAB HD</td>
+                <td width="87">105</td>
+                </tr>
+                <tr>
+                <td width="33">4</td>
+                <td width="184">COLORS HD</td>
+                <td width="87">106</td>
+                </tr>
+                <tr>
+                <td width="33">5</td>
+                <td width="184">STAR BHARAT HD</td>
+                <td width="87">108</td>
+                </tr>
+                <tr>
+                <td width="33">6</td>
+                <td width="184">DD NATIONAL HD</td>
+                <td width="87">110</td>
+                </tr>
+                <tr>
+                <td width="33">7</td>
+                <td width="184">SONY PAL</td>
+                <td width="87">125</td>
+                </tr>
+                <tr>
+                <td width="33">8</td>
+                <td width="184">BIG GANGA</td>
+                <td width="87">127</td>
+                </tr>
+                <tr>
+                <td width="33">9</td>
+                <td width="184">BINDASS</td>
+                <td width="87">128</td>
+                </tr>
+                <tr>
+                <td width="33">10</td>
+                <td width="184">STAR UTSAV</td>
+                <td width="87">144</td>
+                </tr>
+                <tr>
+                <td width="33">11</td>
+                <td width="184">COLORS RISHTEY</td>
+                <td width="87">145</td>
+                </tr>
+                <tr>
+                <td width="33">12</td>
+                <td width="184">DANGAL</td>
+                <td width="87">146</td>
+                </tr>
+                <tr>
+                <td width="33">13</td>
+                <td width="184">DILLAGI</td>
+                <td width="87">149</td>
+                </tr>
+                <tr>
+                <td width="33">14</td>
+                <td width="184">MANORANJAN GRAND</td>
+                <td width="87">150</td>
+                </tr>
+                <tr>
+                <td width="33">15</td>
+                <td width="184">SAMAY SAHARA ONE</td>
+                <td width="87">152</td>
+                </tr>
+                <tr>
+                <td width="33">16</td>
+                <td width="184">DD KISAN</td>
+                <td width="87">153</td>
+                </tr>
+                <tr>
+                <td width="33">17</td>
+                <td width="184">DD BHARTI</td>
+                <td width="87">154</td>
+                </tr>
+                <tr>
+                <td width="33">18</td>
+                <td width="184">MAIBOLI</td>
+                <td width="87">157</td>
+                </tr>
+                <tr>
+                <td width="33">19</td>
+                <td width="184">ISHARA TV</td>
+                <td width="87">159</td>
+                </tr>
+                <tr>
+                <td width="33">20</td>
+                <td width="184">THQ</td>
+                <td width="87">160</td>
+                </tr>
+                <tr>
+                <td width="33">21</td>
+                <td width="184">KHUSHBOO TV</td>
+                <td width="87">161</td>
+                </tr>
+                <tr>
+                <td width="33">22</td>
+                <td width="184">STAR GOLD HD</td>
+                <td width="87">165</td>
+                </tr>
+                <tr>
+                <td width="33">23</td>
+                <td width="184">SONY MAX HD</td>
+                <td width="87">166</td>
+                </tr>
+                <tr>
+                <td width="33">24</td>
+                <td width="184">COLORS CINEPLEX HD</td>
+                <td width="87">168</td>
+                </tr>
+                <tr>
+                <td width="33">25</td>
+                <td width="184">UTV HD</td>
+                <td width="87">170</td>
+                </tr>
+                <tr>
+                <td width="33">26</td>
+                <td width="184">STAR GOLD 2</td>
+                <td width="87">179</td>
+                </tr>
+                <tr>
+                <td width="33">27</td>
+                <td width="184">SONY MAX 2</td>
+                <td width="87">181</td>
+                </tr>
+                <tr>
+                <td width="33">28</td>
+                <td width="184">SONY WAH</td>
+                <td width="87">184</td>
+                </tr>
+                <tr>
+                <td width="33">29</td>
+                <td width="184">UTV MOVIES</td>
+                <td width="87">185</td>
+                </tr>
+                <tr>
+                <td width="33">30</td>
+                <td width="184">UTV ACTION</td>
+                <td width="87">189</td>
+                </tr>
+                <tr>
+                <td width="33">31</td>
+                <td width="184">STAR UTSAV MOVIES</td>
+                <td width="87">191</td>
+                </tr>
+                <tr>
+                <td width="33">32</td>
+                <td width="184">DABANG</td>
+                <td width="87">195</td>
+                </tr>
+                <tr>
+                <td width="33">33</td>
+                <td width="184">FILMY</td>
+                <td width="87">196</td>
+                </tr>
+                <tr>
+                <td width="33">34</td>
+                <td width="184">B4U KADAK</td>
+                <td width="87">197</td>
+                </tr>
+                <tr>
+                <td width="33">35</td>
+                <td width="184">B4U MOVIES</td>
+                <td width="87">198</td>
+                </tr>
+                <tr>
+                <td width="33">36</td>
+                <td width="184">GARGAUR</td>
+                <td width="87">199</td>
+                </tr>
+                <tr>
+                <td width="33">37</td>
+                <td width="184">DANGAL2</td>
+                <td width="87">200</td>
+                </tr>
+                <tr>
+                <td width="33">38</td>
+                <td width="184">MANORANJAN MOVIES</td>
+                <td width="87">208</td>
+                </tr>
+                <tr>
+                <td width="33">39</td>
+                <td width="184">OSCAR MOVIES</td>
+                <td width="87">211</td>
+                </tr>
+                <tr>
+                <td width="33">40</td>
+                <td width="184">MAHA MOVIES</td>
+                <td width="87">214</td>
+                </tr>
+                <tr>
+                <td width="33">41</td>
+                <td width="184">FKT MARATHI</td>
+                <td width="87">216</td>
+                </tr>
+                <tr>
+                <td width="33">42</td>
+                <td width="184">GOLDMINE BOLLYWOOD</td>
+                <td width="87">217</td>
+                </tr>
+                <tr>
+                <td width="33">43</td>
+                <td width="184">WOW CINEMA</td>
+                <td width="87">218</td>
+                </tr>
+                <tr>
+                <td width="33">44</td>
+                <td width="184">ABZY MOVIES</td>
+                <td width="87">219</td>
+                </tr>
+                <tr>
+                <td width="33">45</td>
+                <td width="184">ABZY DAKAD</td>
+                <td width="87">220</td>
+                </tr>
+                <tr>
+                <td width="33">46</td>
+                <td width="184">BEFLIX MOVIES</td>
+                <td width="87">221</td>
+                </tr>
+                <tr>
+                <td width="33">47</td>
+                <td width="184">CINEMA TV</td>
+                <td width="87">222</td>
+                </tr>
+                <tr>
+                <td width="33">48</td>
+                <td width="184">SHAMROO</td>
+                <td width="87">224</td>
+                </tr>
+                <tr>
+                <td width="33">49</td>
+                <td width="184">PTC PUNJABI GOLD</td>
+                <td width="87">225</td>
+                </tr>
+                <tr>
+                <td width="33">50</td>
+                <td width="184">ABZY COOL</td>
+                <td width="87">229</td>
+                </tr>
+                <tr>
+                <td width="33">51</td>
+                <td width="184">MTV HD</td>
+                <td width="87">235</td>
+                </tr>
+                <tr>
+                <td width="33">52</td>
+                <td width="184">MTV BEATS HD</td>
+                <td width="87">237</td>
+                </tr>
+                <tr>
+                <td width="33">53</td>
+                <td width="184">ZING</td>
+                <td width="87">239</td>
+                </tr>
+                <tr>
+                <td width="33">54</td>
+                <td width="184">I LOVE</td>
+                <td width="87">244</td>
+                </tr>
+                <tr>
+                <td width="33">55</td>
+                <td width="184">9X JALWA</td>
+                <td width="87">246</td>
+                </tr>
+                <tr>
+                <td width="33">56</td>
+                <td width="184">PITAARA</td>
+                <td width="87">248</td>
+                </tr>
+                <tr>
+                <td width="33">57</td>
+                <td width="184">9XM</td>
+                <td width="87">249</td>
+                </tr>
+                <tr>
+                <td width="33">58</td>
+                <td width="184">MASTIII</td>
+                <td width="87">250</td>
+                </tr>
+                <tr>
+                <td width="33">59</td>
+                <td width="184">MUSIC INDIA</td>
+                <td width="87">252</td>
+                </tr>
+                <tr>
+                <td width="33">60</td>
+                <td width="184">B4U MUSIC</td>
+                <td width="87">253</td>
+                </tr>
+                <tr>
+                <td width="33">61</td>
+                <td width="184">PTC PUNJABI</td>
+                <td width="87">254</td>
+                </tr>
+                <tr>
+                <td width="33">62</td>
+                <td width="184">PTC CHAK DE</td>
+                <td width="87">255</td>
+                </tr>
+                <tr>
+                <td width="33">63</td>
+                <td width="184">MH ONE MUSIC</td>
+                <td width="87">256</td>
+                </tr>
+                <tr>
+                <td width="33">64</td>
+                <td width="184">SANGEET BHOJPURI</td>
+                <td width="87">258</td>
+                </tr>
+                <tr>
+                <td width="33">65</td>
+                <td width="184">GOLDMINE</td>
+                <td width="87">259</td>
+                </tr>
+                <tr>
+                <td width="33">66</td>
+                <td width="184">9X JHAKAAS</td>
+                <td width="87">260</td>
+                </tr>
+                <tr>
+                <td width="33">67</td>
+                <td width="184">BALLE BALLE</td>
+                <td width="87">262</td>
+                </tr>
+                <tr>
+                <td width="33">68</td>
+                <td width="184">M TUNE</td>
+                <td width="87">263</td>
+                </tr>
+                <tr>
+                <td width="33">69</td>
+                <td width="184">PUNJABI HITS</td>
+                <td width="87">265</td>
+                </tr>
+                <tr>
+                <td width="33">70</td>
+                <td width="184">9X TASHAN</td>
+                <td width="87">266</td>
+                </tr>
+                <tr>
+                <td width="33">71</td>
+                <td width="184">PTC MUSIC</td>
+                <td width="87">267</td>
+                </tr>
+                <tr>
+                <td width="33">72</td>
+                <td width="184">SHOW BOX</td>
+                <td width="87">268</td>
+                </tr>
+                <tr>
+                <td width="33">73</td>
+                <td width="184">E24</td>
+                <td width="87">269</td>
+                </tr>
+                <tr>
+                <td width="33">74</td>
+                <td width="184">VH1 HD</td>
+                <td width="87">270</td>
+                </tr>
+                <tr>
+                <td width="33">75</td>
+                <td width="184">SANGEET BANGLA</td>
+                <td width="87">272</td>
+                </tr>
+                <tr>
+                <td width="33">76</td>
+                <td width="184">STAR SPORTS HD 2</td>
+                <td width="87">304</td>
+                </tr>
+                <tr>
+                <td width="33">77</td>
+                <td width="184">STAR SPORTS 1 HD HINDI</td>
+                <td width="87">306</td>
+                </tr>
+                <tr>
+                <td width="33">78</td>
+                <td width="184">SONY TEN HD 3</td>
+                <td width="87">314</td>
+                </tr>
+                <tr>
+                <td width="33">79</td>
+                <td width="184">STAR SPORTS 3</td>
+                <td width="87">327</td>
+                </tr>
+                <tr>
+                <td width="33">80</td>
+                <td width="184">STAR SPORTS FIRST</td>
+                <td width="87">335</td>
+                </tr>
+                <tr>
+                <td width="33">81</td>
+                <td width="184">EUROSPORT HD</td>
+                <td width="87">336</td>
+                </tr>
+                <tr>
+                <td width="33">82</td>
+                <td width="184">DD SPORTS</td>
+                <td width="87">337</td>
+                </tr>
+                <tr>
+                <td width="33">83</td>
+                <td width="184">SANSKAR</td>
+                <td width="87">350</td>
+                </tr>
+                <tr>
+                <td width="33">84</td>
+                <td width="184">ASTHA BHAJAN</td>
+                <td width="87">351</td>
+                </tr>
+                <tr>
+                <td width="33">85</td>
+                <td width="184">SATSANG</td>
+                <td width="87">352</td>
+                </tr>
+                <tr>
+                <td width="33">86</td>
+                <td width="184">ASTHA TV</td>
+                <td width="87">353</td>
+                </tr>
+                <tr>
+                <td width="33">87</td>
+                <td width="184">VADIC</td>
+                <td width="87">354</td>
+                </tr>
+                <tr>
+                <td width="33">88</td>
+                <td width="184">SARV DHRAM SANGAM</td>
+                <td width="87">355</td>
+                </tr>
+                <tr>
+                <td width="33">89</td>
+                <td width="184">SADHNA</td>
+                <td width="87">356</td>
+                </tr>
+                <tr>
+                <td width="33">90</td>
+                <td width="184">DIVYA</td>
+                <td width="87">358</td>
+                </tr>
+                <tr>
+                <td width="33">91</td>
+                <td width="184">SHARDHA MH ONE</td>
+                <td width="87">359</td>
+                </tr>
+                <tr>
+                <td width="33">92</td>
+                <td width="184">ISWAR VHAKTI</td>
+                <td width="87">360</td>
+                </tr>
+                <tr>
+                <td width="33">93</td>
+                <td width="184">PACE OF MIND</td>
+                <td width="87">361</td>
+                </tr>
+                <tr>
+                <td width="33">94</td>
+                <td width="184">SANSKRITI TV</td>
+                <td width="87">362</td>
+                </tr>
+                <tr>
+                <td width="33">95</td>
+                <td width="184">ANJAN TV</td>
+                <td width="87">363</td>
+                </tr>
+                <tr>
+                <td width="33">96</td>
+                <td width="184">SHUBH TV</td>
+                <td width="87">364</td>
+                </tr>
+                <tr>
+                <td width="33">97</td>
+                <td width="184">Fateh TV</td>
+                <td width="87">365</td>
+                </tr>
+                <tr>
+                <td width="33">98</td>
+                <td width="184">DISHA TV</td>
+                <td width="87">366</td>
+                </tr>
+                <tr>
+                <td width="33">99</td>
+                <td width="184">JINVANI</td>
+                <td width="87">367</td>
+                </tr>
+                <tr>
+                <td width="33">100</td>
+                <td width="184">BHAKTI SAGAR</td>
+                <td width="87">368</td>
+                </tr>
+                <tr>
+                <td width="33">101</td>
+                <td width="184">AASEERVATHAM TV</td>
+                <td width="87">369</td>
+                </tr>
+                <tr>
+                <td width="33">102</td>
+                <td width="184">CHANNELS WIN</td>
+                <td width="87">370</td>
+                </tr>
+                <tr>
+                <td width="33">103</td>
+                <td width="184">SHUBH CINEMA</td>
+                <td width="87">371</td>
+                </tr>
+                <tr>
+                <td width="33">104</td>
+                <td width="184">PTC SIMARN</td>
+                <td width="87">372</td>
+                </tr>
+                <tr>
+                <td width="33">105</td>
+                <td width="184">SANT VANI</td>
+                <td width="87">373</td>
+                </tr>
+                <tr>
+                <td width="33">106</td>
+                <td width="184">CNBC AWAAZ</td>
+                <td width="87">401</td>
+                </tr>
+                <tr>
+                <td width="33">107</td>
+                <td width="184">ZEE NEWS</td>
+                <td width="87">404</td>
+                </tr>
+                <tr>
+                <td width="33">108</td>
+                <td width="184">NEWS 18 INDIA</td>
+                <td width="87">430</td>
+                </tr>
+                <tr>
+                <td width="33">109</td>
+                <td width="184">ZEE HINDUSTAN</td>
+                <td width="87">410</td>
+                </tr>
+                <tr>
+                <td width="33">110</td>
+                <td width="184">AAJTAK HD</td>
+                <td width="87">411</td>
+                </tr>
+                <tr>
+                <td width="33">111</td>
+                <td width="184">ZEE UTTAR PRADESH UTTARAKHAND</td>
+                <td width="87">412</td>
+                </tr>
+                <tr>
+                <td width="33">112</td>
+                <td width="184">ZEE MADHYA PRADESH CHATTISGARH</td>
+                <td width="87">413</td>
+                </tr>
+                <tr>
+                <td width="33">113</td>
+                <td width="184">NEWS 18 UTTAR PRADESH/UTTARAKHAND</td>
+                <td width="87">414</td>
+                </tr>
+                <tr>
+                <td width="33">114</td>
+                <td width="184">NEWS 18 MADHYA PRADESH/CHHATTISGARH</td>
+                <td width="87">416</td>
+                </tr>
+                <tr>
+                <td width="33">115</td>
+                <td width="184">ZEE PUNJAB HARYANA HIMACHAL</td>
+                <td width="87">417</td>
+                </tr>
+                <tr>
+                <td width="33">116</td>
+                <td width="184">GNT</td>
+                <td width="87">418</td>
+                </tr>
+                <tr>
+                <td width="33">117</td>
+                <td width="184">NEWS 18 RAJSTHAN</td>
+                <td width="87">419</td>
+                </tr>
+                <tr>
+                <td width="33">118</td>
+                <td width="184">ZEE SALAAM</td>
+                <td width="87">420</td>
+                </tr>
+                <tr>
+                <td width="33">119</td>
+                <td width="184">ZEE RAJSTHAN</td>
+                <td width="87">421</td>
+                </tr>
+                <tr>
+                <td width="33">120</td>
+                <td width="184">NEWS 18 PUNJAB/HARYANA/HIMACHAL</td>
+                <td width="87">422</td>
+                </tr>
+                <tr>
+                <td width="33">121</td>
+                <td width="184">NEWS 18 URDU</td>
+                <td width="87">423</td>
+                </tr>
+                <tr>
+                <td width="33">122</td>
+                <td width="184">ZEE BIHAR JHARKHAND</td>
+                <td width="87">425</td>
+                </tr>
+                <tr>
+                <td width="33">123</td>
+                <td width="184">ABP NEWS</td>
+                <td width="87">429</td>
+                </tr>
+                <tr>
+                <td width="33">124</td>
+                <td width="184">INDIA TV</td>
+                <td width="87">405</td>
+                </tr>
+                <tr>
+                <td width="33">125</td>
+                <td width="184">REPUBLIC BHARAT TV</td>
+                <td width="87">432</td>
+                </tr>
+                <tr>
+                <td width="33">126</td>
+                <td width="184">NEWS NATION</td>
+                <td width="87">433</td>
+                </tr>
+                <tr>
+                <td width="33">127</td>
+                <td width="184">TV9 BHARATVARSH</td>
+                <td width="87">434</td>
+                </tr>
+                <tr>
+                <td width="33">128</td>
+                <td width="184">KHABAR FAST</td>
+                <td width="87">435</td>
+                </tr>
+                <tr>
+                <td width="33">129</td>
+                <td width="184">ZEE 24 KALAK</td>
+                <td width="87">436</td>
+                </tr>
+                <tr>
+                <td width="33">130</td>
+                <td width="184">PTC NEWS</td>
+                <td width="87">437</td>
+                </tr>
+                <tr>
+                <td width="33">131</td>
+                <td width="184">KHABREIN ABHI TAK</td>
+                <td width="87">438</td>
+                </tr>
+                <tr>
+                <td width="33">132</td>
+                <td width="184">NEWS 18 BIHAR/JHAKHAND</td>
+                <td width="87">439</td>
+                </tr>
+                <tr>
+                <td width="33">133</td>
+                <td width="184">HINDI KHABAR</td>
+                <td width="87">440</td>
+                </tr>
+                <tr>
+                <td width="33">134</td>
+                <td width="184">DD NEWS</td>
+                <td width="87">441</td>
+                </tr>
+                <tr>
+                <td width="33">135</td>
+                <td width="184">INDIA NEWS</td>
+                <td width="87">442</td>
+                </tr>
+                <tr>
+                <td width="33">136</td>
+                <td width="184">IND 24</td>
+                <td width="87">443</td>
+                </tr>
+                <tr>
+                <td width="33">137</td>
+                <td width="184">NDTV INDIA</td>
+                <td width="87">445</td>
+                </tr>
+                <tr>
+                <td width="33">138</td>
+                <td width="184">NEWS 24</td>
+                <td width="87">446</td>
+                </tr>
+                <tr>
+                <td width="33">139</td>
+                <td width="184">BANSAL NEWS</td>
+                <td width="87">447</td>
+                </tr>
+                <tr>
+                <td width="33">140</td>
+                <td width="184">JAN TV</td>
+                <td width="87">448</td>
+                </tr>
+                <tr>
+                <td width="33">141</td>
+                <td width="184">PRADHIN TIME</td>
+                <td width="87">449</td>
+                </tr>
+                <tr>
+                <td width="33">142</td>
+                <td width="184">NEWS STATE UTTAR PRADESH</td>
+                <td width="87">450</td>
+                </tr>
+                <tr>
+                <td width="33">143</td>
+                <td width="184">INDIA NEWS HARYANA</td>
+                <td width="87">451</td>
+                </tr>
+                <tr>
+                <td width="33">144</td>
+                <td width="184">INDIA NEWS RAJSTHAN</td>
+                <td width="87">452</td>
+                </tr>
+                <tr>
+                <td width="33">145</td>
+                <td width="184">INDIA NEWS MADHYA PRADESH</td>
+                <td width="87">453</td>
+                </tr>
+                <tr>
+                <td width="33">146</td>
+                <td width="184">INDIA NEWS PUNJAB HARYANA</td>
+                <td width="87">454</td>
+                </tr>
+                <tr>
+                <td width="33">147</td>
+                <td width="184">MH ONE NEWS</td>
+                <td width="87">455</td>
+                </tr>
+                <tr>
+                <td width="33">148</td>
+                <td width="184">INDIA NEWS UTTAR PRADESH</td>
+                <td width="87">456</td>
+                </tr>
+                <tr>
+                <td width="33">149</td>
+                <td width="184">SANDESH NEWS</td>
+                <td width="87">458</td>
+                </tr>
+                <tr>
+                <td width="33">150</td>
+                <td width="184">NEWS X</td>
+                <td width="87">460</td>
+                </tr>
+                <tr>
+                <td width="33">151</td>
+                <td width="184">SHUDARSAN NEWS</td>
+                <td width="87">461</td>
+                </tr>
+                <tr>
+                <td width="33">152</td>
+                <td width="184">DD INDIA HD</td>
+                <td width="87">462</td>
+                </tr>
+                <tr>
+                <td width="33">153</td>
+                <td width="184">SANSAD TV HD</td>
+                <td width="87">463</td>
+                </tr>
+                <tr>
+                <td width="33">154</td>
+                <td width="184">DD URDU</td>
+                <td width="87">464</td>
+                </tr>
+                <tr>
+                <td width="33">155</td>
+                <td width="184">DD TAMIL NANDU</td>
+                <td width="87">465</td>
+                </tr>
+                <tr>
+                <td width="33">156</td>
+                <td width="184">DD TELANGNA</td>
+                <td width="87">466</td>
+                </tr>
+                <tr>
+                <td width="33">157</td>
+                <td width="184">DD KERLA</td>
+                <td width="87">469</td>
+                </tr>
+                <tr>
+                <td width="33">158</td>
+                <td width="184">DD UTTAR PRADESH</td>
+                <td width="87">470</td>
+                </tr>
+                <tr>
+                <td width="33">159</td>
+                <td width="184">DD BANGLA</td>
+                <td width="87">471</td>
+                </tr>
+                <tr>
+                <td width="33">160</td>
+                <td width="184">INH 24*7</td>
+                <td width="87">472</td>
+                </tr>
+                <tr>
+                <td width="33">161</td>
+                <td width="184">ND NEWS 24</td>
+                <td width="87">473</td>
+                </tr>
+                <tr>
+                <td width="33">162</td>
+                <td width="184">DD RAJSTHAN</td>
+                <td width="87">475</td>
+                </tr>
+                <tr>
+                <td width="33">163</td>
+                <td width="184">DD KARNATKA</td>
+                <td width="87">476</td>
+                </tr>
+                <tr>
+                <td width="33">164</td>
+                <td width="184">DD KASHIR</td>
+                <td width="87">478</td>
+                </tr>
+                <tr>
+                <td width="33">165</td>
+                <td width="184">DD BIHAR</td>
+                <td width="87">481</td>
+                </tr>
+                <tr>
+                <td width="33">166</td>
+                <td width="184">MAHAA NEWS&#8217;</td>
+                <td width="87">482</td>
+                </tr>
+                <tr>
+                <td width="33">167</td>
+                <td width="184">BHARAT SAMACHAR</td>
+                <td width="87">484</td>
+                </tr>
+                <tr>
+                <td width="33">168</td>
+                <td width="184">NEWS 11 BHARAT</td>
+                <td width="87">485</td>
+                </tr>
+                <tr>
+                <td width="33">169</td>
+                <td width="184">NEWS STATE UTTAR  PRADESH</td>
+                <td width="87">487</td>
+                </tr>
+                <tr>
+                <td width="33">170</td>
+                <td width="184">MKN</td>
+                <td width="87">489</td>
+                </tr>
+                <tr>
+                <td width="33">171</td>
+                <td width="184">NAXATRA NEWS</td>
+                <td width="87">493</td>
+                </tr>
+                <tr>
+                <td width="33">172</td>
+                <td width="184">NEWS 18 ASSAM/NORTH EAST</td>
+                <td width="87">494</td>
+                </tr>
+                <tr>
+                <td width="33">173</td>
+                <td width="184">ABP GANGA</td>
+                <td width="87">495</td>
+                </tr>
+                <tr>
+                <td width="33">174</td>
+                <td width="184">CNBC TV 18</td>
+                <td width="87">513</td>
+                </tr>
+                <tr>
+                <td width="33">175</td>
+                <td width="184">CNN NEWS 18</td>
+                <td width="87">523</td>
+                </tr>
+                <tr>
+                <td width="33">176</td>
+                <td width="184">CNN NEWS</td>
+                <td width="87">527</td>
+                </tr>
+                <tr>
+                <td width="33">177</td>
+                <td width="184">INDIA TODAY</td>
+                <td width="87">530</td>
+                </tr>
+                <tr>
+                <td width="33">178</td>
+                <td width="184">ALJAZEERA HD</td>
+                <td width="87">531</td>
+                </tr>
+                <tr>
+                <td width="33">179</td>
+                <td width="184">REPUBLIC TV</td>
+                <td width="87">532</td>
+                </tr>
+                <tr>
+                <td width="33">180</td>
+                <td width="184">SAHARA NCR</td>
+                <td width="87">533</td>
+                </tr>
+                <tr>
+                <td width="33">181</td>
+                <td width="184">SAHARA NET</td>
+                <td width="87">534</td>
+                </tr>
+                <tr>
+                <td width="33">182</td>
+                <td width="184">TRT WORLD HD</td>
+                <td width="87">546</td>
+                </tr>
+                <tr>
+                <td width="33">183</td>
+                <td width="184">NHK WORLD JAPAN HD</td>
+                <td width="87">548</td>
+                </tr>
+                <tr>
+                <td width="33">184</td>
+                <td width="184">DW TV HD</td>
+                <td width="87">551</td>
+                </tr>
+                <tr>
+                <td width="33">185</td>
+                <td width="184">LIVING FOOD HD</td>
+                <td width="87">602</td>
+                </tr>
+                <tr>
+                <td width="33">186</td>
+                <td width="184">NATIONAL GEOGRAPHIC HD</td>
+                <td width="87">604</td>
+                </tr>
+                <tr>
+                <td width="33">187</td>
+                <td width="184">SONY BBC EARTH HD</td>
+                <td width="87">608</td>
+                </tr>
+                <tr>
+                <td width="33">188</td>
+                <td width="184">NAT GEO WILD HD</td>
+                <td width="87">609</td>
+                </tr>
+                <tr>
+                <td width="33">189</td>
+                <td width="184">HISTORY TV18 HD</td>
+                <td width="87">610</td>
+                </tr>
+                <tr>
+                <td width="33">190</td>
+                <td width="184">DISCOVERY HD WORLD</td>
+                <td width="87">611</td>
+                </tr>
+                <tr>
+                <td width="33">191</td>
+                <td width="184">ANIMAL PLANET HD</td>
+                <td width="87">612</td>
+                </tr>
+                <tr>
+                <td width="33">192</td>
+                <td width="184">FASHION TV HD</td>
+                <td width="87">614</td>
+                </tr>
+                <tr>
+                <td width="33">193</td>
+                <td width="184">FOOD FOOD</td>
+                <td width="87">624</td>
+                </tr>
+                <tr>
+                <td width="33">194</td>
+                <td width="184">DISNEY CHANNELS</td>
+                <td width="87">626</td>
+                </tr>
+                <tr>
+                <td width="33">195</td>
+                <td width="184">GUBBARE</td>
+                <td width="87">629</td>
+                </tr>
+                <tr>
+                <td width="33">196</td>
+                <td width="184">SONY YAH</td>
+                <td width="87">630</td>
+                </tr>
+                <tr>
+                <td width="33">197</td>
+                <td width="184">HUNGAMA</td>
+                <td width="87">632</td>
+                </tr>
+                <tr>
+                <td width="33">198</td>
+                <td width="184">MARVEL HQ</td>
+                <td width="87">633</td>
+                </tr>
+                <tr>
+                <td width="33">199</td>
+                <td width="184">DOSCOVERY KIDS</td>
+                <td width="87">635</td>
+                </tr>
+                <tr>
+                <td width="33">200</td>
+                <td width="184">DISNEY JR.</td>
+                <td width="87">637</td>
+                </tr>
+                <tr>
+                <td width="33">201</td>
+                <td width="184">POGO</td>
+                <td width="87">639</td>
+                </tr>
+                <tr>
+                <td width="33">202</td>
+                <td width="184">DISCOVERY ID HD</td>
+                <td width="87">657</td>
+                </tr>
+                <tr>
+                <td width="33">203</td>
+                <td width="184">SONY AATH</td>
+                <td width="87">690</td>
+                </tr>
+                <tr>
+                <td width="33">204</td>
+                <td width="184">SONY MARATHI</td>
+                <td width="87">691</td>
+                </tr>
+                <tr>
+                <td width="33">205</td>
+                <td width="184">ABP ANANDA</td>
+                <td width="87">693</td>
+                </tr>
+                <tr>
+                <td width="33">206</td>
+                <td width="184">TV 9 TELGU</td>
+                <td width="87">694</td>
+                </tr>
+                <tr>
+                <td width="33">207</td>
+                <td width="184">TLC WORLD HD</td>
+                <td width="87">695</td>
+                </tr>
+                <tr>
+                <td width="33">208</td>
+                <td width="184">EPIC</td>
+                <td width="87">696</td>
+                </tr>
+                <tr>
+                <td width="33">209</td>
+                <td width="184">DISCOVERY SCIENCE</td>
+                <td width="87">697</td>
+                </tr>
+                <tr>
+                <td width="33">210</td>
+                <td width="184">DISCOVERY TURBO</td>
+                <td width="87">698</td>
+                </tr>
+                <tr>
+                <td width="33">211</td>
+                <td width="184">B4U BHOJPURI</td>
+                <td width="87">700</td>
+                </tr>
+                <tr>
+                <td width="33">212</td>
+                <td width="184">DD GUJRATI</td>
+                <td width="87">701</td>
+                </tr>
+                <tr>
+                <td width="33">213</td>
+                <td width="184">DD MP</td>
+                <td width="87">702</td>
+                </tr>
+                <tr>
+                <td width="33">214</td>
+                <td width="184">DD ANDRA PREDEH</td>
+                <td width="87">703</td>
+                </tr>
+                <tr>
+                <td width="33">215</td>
+                <td width="184">TV9 MARATHI</td>
+                <td width="87">704</td>
+                </tr>
+                <tr>
+                <td width="33">216</td>
+                <td width="184">ABP MAJHA</td>
+                <td width="87">708</td>
+                </tr>
+                <tr>
+                <td width="33">217</td>
+                <td width="184">CHADIKLA TIME TV</td>
+                <td width="87">709</td>
+                </tr>
+                <tr>
+                <td width="33">218</td>
+                <td width="184">EZ MALL</td>
+                <td width="87">710</td>
+                </tr>
+                <tr>
+                <td width="33">219</td>
+                <td width="184">ARGUS</td>
+                <td width="87">711</td>
+                </tr>
+                <tr>
+                <td width="33">220</td>
+                <td width="184">BADAKHABAR</td>
+                <td width="87">712</td>
+                </tr>
+                <tr>
+                <td width="33">221</td>
+                <td width="184">PARAS TV</td>
+                <td width="87">713</td>
+                </tr>
+                <tr>
+                <td width="33">222</td>
+                <td width="184">CAPTAIN TV</td>
+                <td width="87">714</td>
+                </tr>
+                <tr>
+                <td width="33">223</td>
+                <td width="184">MAKKAL TV</td>
+                <td width="87">715</td>
+                </tr>
+                <tr>
+                <td width="33">224</td>
+                <td width="184">VASANTH TV</td>
+                <td width="87">716</td>
+                </tr>
+                <tr>
+                <td width="33">225</td>
+                <td width="184">POLIMER NEWS</td>
+                <td width="87">718</td>
+                </tr>
+                <tr>
+                <td width="33">226</td>
+                <td width="184">GYAN DARSHAN 1</td>
+                <td width="87">726</td>
+                </tr>
+                <tr>
+                <td width="33">227</td>
+                <td width="184">LOKSAHI MARATHI</td>
+                <td width="87">750</td>
+                </tr>
+                <tr>
+                <td width="33">228</td>
+                <td width="184">KALINGA TV</td>
+                <td width="87">992</td>
+                </tr>
+                <tr>
+                <td width="33">229</td>
+                <td width="184">NANDIGHOSH TV</td>
+                <td width="87">993</td>
+                </tr>
+                <tr>
+                <td width="33">230</td>
+                <td width="184">DD ODIA</td>
+                <td width="87">994</td>
+                </tr>
+                <tr>
+                <td width="33">231</td>
+                <td width="184">SAAM TV</td>
+                <td width="87">997</td>
+                </tr>
+                </tbody>
+
+          </table>
+      </div>
+
+      <div class="table-title"> </div>
+
+        <!-- Table 5 -->
+        <div>
+          <div class="table-title">Table-1499</div>
+          <table>
+            <!-- 1499 -->
+              <tbody>
+              <tr>
+              <td width="33">S. No</td>
+              <td width="246">Channel Name</td>
+              <td width="90">Channel Number</td>
+              </tr>
+              <tr>
+              <td width="33">1</td>
+              <td width="246">STAR PLUS HD</td>
+              <td width="90">101</td>
+              </tr>
+              <tr>
+              <td width="33">2</td>
+              <td width="246">SONY ENTERTAINMENT HD</td>
+              <td width="90">102</td>
+              </tr>
+              <tr>
+              <td width="33">3</td>
+              <td width="246">SONY SAB HD</td>
+              <td width="90">105</td>
+              </tr>
+              <tr>
+              <td width="33">4</td>
+              <td width="246">COLORS HD</td>
+              <td width="90">106</td>
+              </tr>
+              <tr>
+              <td width="33">5</td>
+              <td width="246">STAR BHARAT HD</td>
+              <td width="90">108</td>
+              </tr>
+              <tr>
+              <td width="33">6</td>
+              <td width="246">DD NATIONAL HD</td>
+              <td width="90">110</td>
+              </tr>
+              <tr>
+              <td width="33">7</td>
+              <td width="246">SONY PAL</td>
+              <td width="90">125</td>
+              </tr>
+              <tr>
+              <td width="33">8</td>
+              <td width="246">BIG GANGA</td>
+              <td width="90">127</td>
+              </tr>
+              <tr>
+              <td width="33">9</td>
+              <td width="246">BINDASS</td>
+              <td width="90">128</td>
+              </tr>
+              <tr>
+              <td width="33">10</td>
+              <td width="246">STAR UTSAV</td>
+              <td width="90">144</td>
+              </tr>
+              <tr>
+              <td width="33">11</td>
+              <td width="246">COLORS RISHTEY</td>
+              <td width="90">145</td>
+              </tr>
+              <tr>
+              <td width="33">12</td>
+              <td width="246">DANGAL</td>
+              <td width="90">146</td>
+              </tr>
+              <tr>
+              <td width="33">13</td>
+              <td width="246">DILLAGI</td>
+              <td width="90">149</td>
+              </tr>
+              <tr>
+              <td width="33">14</td>
+              <td width="246">MANORANJAN GRAND</td>
+              <td width="90">150</td>
+              </tr>
+              <tr>
+              <td width="33">15</td>
+              <td width="246">SAMAY SAHARA ONE</td>
+              <td width="90">152</td>
+              </tr>
+              <tr>
+              <td width="33">16</td>
+              <td width="246">DD KISAN</td>
+              <td width="90">153</td>
+              </tr>
+              <tr>
+              <td width="33">17</td>
+              <td width="246">DD BHARTI</td>
+              <td width="90">154</td>
+              </tr>
+              <tr>
+              <td width="33">18</td>
+              <td width="246">MAIBOLI</td>
+              <td width="90">157</td>
+              </tr>
+              <tr>
+              <td width="33">19</td>
+              <td width="246">ISHARA TV</td>
+              <td width="90">159</td>
+              </tr>
+              <tr>
+              <td width="33">20</td>
+              <td width="246">THQ</td>
+              <td width="90">160</td>
+              </tr>
+              <tr>
+              <td width="33">21</td>
+              <td width="246">KHUSHBOO TV</td>
+              <td width="90">161</td>
+              </tr>
+              <tr>
+              <td width="33">22</td>
+              <td width="246">STAR GOLD HD</td>
+              <td width="90">165</td>
+              </tr>
+              <tr>
+              <td width="33">23</td>
+              <td width="246">SONY MAX HD</td>
+              <td width="90">166</td>
+              </tr>
+              <tr>
+              <td width="33">24</td>
+              <td width="246">COLORS CINEPLEX HD</td>
+              <td width="90">168</td>
+              </tr>
+              <tr>
+              <td width="33">25</td>
+              <td width="246">UTV HD</td>
+              <td width="90">170</td>
+              </tr>
+              <tr>
+              <td width="33">26</td>
+              <td width="246">STAR GOLD SALECT HD</td>
+              <td width="90">171</td>
+              </tr>
+              <tr>
+              <td width="33">27</td>
+              <td width="246">STAR GOLD 2</td>
+              <td width="90">179</td>
+              </tr>
+              <tr>
+              <td width="33">28</td>
+              <td width="246">SONY MAX 2</td>
+              <td width="90">181</td>
+              </tr>
+              <tr>
+              <td width="33">29</td>
+              <td width="246">SONY WAH</td>
+              <td width="90">184</td>
+              </tr>
+              <tr>
+              <td width="33">30</td>
+              <td width="246">UTV MOVIES</td>
+              <td width="90">185</td>
+              </tr>
+              <tr>
+              <td width="33">31</td>
+              <td width="246">UTV ACTION</td>
+              <td width="90">189</td>
+              </tr>
+              <tr>
+              <td width="33">32</td>
+              <td width="246">STAR UTSAV MOVIES</td>
+              <td width="90">191</td>
+              </tr>
+              <tr>
+              <td width="33">33</td>
+              <td width="246">DABANG</td>
+              <td width="90">195</td>
+              </tr>
+              <tr>
+              <td width="33">34</td>
+              <td width="246">FILMY</td>
+              <td width="90">196</td>
+              </tr>
+              <tr>
+              <td width="33">35</td>
+              <td width="246">B4U KADAK</td>
+              <td width="90">197</td>
+              </tr>
+              <tr>
+              <td width="33">36</td>
+              <td width="246">B4U MOVIES</td>
+              <td width="90">198</td>
+              </tr>
+              <tr>
+              <td width="33">37</td>
+              <td width="246">GARGAUR</td>
+              <td width="90">199</td>
+              </tr>
+              <tr>
+              <td width="33">38</td>
+              <td width="246">DANGAL2</td>
+              <td width="90">200</td>
+              </tr>
+              <tr>
+              <td width="33">39</td>
+              <td width="246">MANORANJAN MOVIES</td>
+              <td width="90">208</td>
+              </tr>
+              <tr>
+              <td width="33">40</td>
+              <td width="246">OSCAR MOVIES</td>
+              <td width="90">211</td>
+              </tr>
+              <tr>
+              <td width="33">41</td>
+              <td width="246">MAHA MOVIES</td>
+              <td width="90">214</td>
+              </tr>
+              <tr>
+              <td width="33">42</td>
+              <td width="246">FKT MARATHI</td>
+              <td width="90">216</td>
+              </tr>
+              <tr>
+              <td width="33">43</td>
+              <td width="246">GOLDMINE BOLLYWOOD</td>
+              <td width="90">217</td>
+              </tr>
+              <tr>
+              <td width="33">44</td>
+              <td width="246">WOW CINEMA</td>
+              <td width="90">218</td>
+              </tr>
+              <tr>
+              <td width="33">45</td>
+              <td width="246">ABZY MOVIES</td>
+              <td width="90">219</td>
+              </tr>
+              <tr>
+              <td width="33">46</td>
+              <td width="246">ABZY DAKAD</td>
+              <td width="90">220</td>
+              </tr>
+              <tr>
+              <td width="33">47</td>
+              <td width="246">BEFLIX MOVIES</td>
+              <td width="90">221</td>
+              </tr>
+              <tr>
+              <td width="33">48</td>
+              <td width="246">CINEMA TV</td>
+              <td width="90">222</td>
+              </tr>
+              <tr>
+              <td width="33">49</td>
+              <td width="246">SHAMROO</td>
+              <td width="90">224</td>
+              </tr>
+              <tr>
+              <td width="33">50</td>
+              <td width="246">PTC PUNJABI GOLD</td>
+              <td width="90">225</td>
+              </tr>
+              <tr>
+              <td width="33">51</td>
+              <td width="246">ABZY COOL</td>
+              <td width="90">229</td>
+              </tr>
+              <tr>
+              <td width="33">52</td>
+              <td width="246">MTV HD</td>
+              <td width="90">235</td>
+              </tr>
+              <tr>
+              <td width="33">53</td>
+              <td width="246">MTV BEATS HD</td>
+              <td width="90">237</td>
+              </tr>
+              <tr>
+              <td width="33">54</td>
+              <td width="246">ZING</td>
+              <td width="90">239</td>
+              </tr>
+              <tr>
+              <td width="33">55</td>
+              <td width="246">I LOVE</td>
+              <td width="90">244</td>
+              </tr>
+              <tr>
+              <td width="33">56</td>
+              <td width="246">9X JALWA</td>
+              <td width="90">246</td>
+              </tr>
+              <tr>
+              <td width="33">57</td>
+              <td width="246">PITAARA</td>
+              <td width="90">248</td>
+              </tr>
+              <tr>
+              <td width="33">58</td>
+              <td width="246">9XM</td>
+              <td width="90">249</td>
+              </tr>
+              <tr>
+              <td width="33">59</td>
+              <td width="246">MASTIII</td>
+              <td width="90">250</td>
+              </tr>
+              <tr>
+              <td width="33">60</td>
+              <td width="246">MUSIC INDIA</td>
+              <td width="90">252</td>
+              </tr>
+              <tr>
+              <td width="33">61</td>
+              <td width="246">B4U MUSIC</td>
+              <td width="90">253</td>
+              </tr>
+              <tr>
+              <td width="33">62</td>
+              <td width="246">PTC PUNJABI</td>
+              <td width="90">254</td>
+              </tr>
+              <tr>
+              <td width="33">63</td>
+              <td width="246">PTC CHAK DE</td>
+              <td width="90">255</td>
+              </tr>
+              <tr>
+              <td width="33">64</td>
+              <td width="246">MH ONE MUSIC</td>
+              <td width="90">256</td>
+              </tr>
+              <tr>
+              <td width="33">65</td>
+              <td width="246">SANGEET BHOJPURI</td>
+              <td width="90">258</td>
+              </tr>
+              <tr>
+              <td width="33">66</td>
+              <td width="246">GOLDMINE</td>
+              <td width="90">259</td>
+              </tr>
+              <tr>
+              <td width="33">67</td>
+              <td width="246">9X JHAKAAS</td>
+              <td width="90">260</td>
+              </tr>
+              <tr>
+              <td width="33">68</td>
+              <td width="246">BALLE BALLE</td>
+              <td width="90">262</td>
+              </tr>
+              <tr>
+              <td width="33">69</td>
+              <td width="246">M TUNE</td>
+              <td width="90">263</td>
+              </tr>
+              <tr>
+              <td width="33">70</td>
+              <td width="246">PUNJABI HITS</td>
+              <td width="90">265</td>
+              </tr>
+              <tr>
+              <td width="33">71</td>
+              <td width="246">9X TASHAN</td>
+              <td width="90">266</td>
+              </tr>
+              <tr>
+              <td width="33">72</td>
+              <td width="246">PTC MUSIC</td>
+              <td width="90">267</td>
+              </tr>
+              <tr>
+              <td width="33">73</td>
+              <td width="246">SHOW BOX</td>
+              <td width="90">268</td>
+              </tr>
+              <tr>
+              <td width="33">74</td>
+              <td width="246">E24</td>
+              <td width="90">269</td>
+              </tr>
+              <tr>
+              <td width="33">75</td>
+              <td width="246">VH1 HD</td>
+              <td width="90">270</td>
+              </tr>
+              <tr>
+              <td width="33">76</td>
+              <td width="246">SANGEET BANGLA</td>
+              <td width="90">272</td>
+              </tr>
+              <tr>
+              <td width="33">77</td>
+              <td width="246">STAR SPORTS HD1</td>
+              <td width="90">302</td>
+              </tr>
+              <tr>
+              <td width="33">78</td>
+              <td width="246">STAR SPORTS HD 2</td>
+              <td width="90">304</td>
+              </tr>
+              <tr>
+              <td width="33">79</td>
+              <td width="246">STAR SPORTS 1 HD HINDI</td>
+              <td width="90">306</td>
+              </tr>
+              <tr>
+              <td width="33">80</td>
+              <td width="246">STAR SPORTS SALECT HD 1</td>
+              <td width="90">308</td>
+              </tr>
+              <tr>
+              <td width="33">81</td>
+              <td width="246">STAR SPORTS SALECT HD 2</td>
+              <td width="90">309</td>
+              </tr>
+              <tr>
+              <td width="33">82</td>
+              <td width="246">SONY TEN  HD 1</td>
+              <td width="90">310</td>
+              </tr>
+              <tr>
+              <td width="33">83</td>
+              <td width="246">SONY TEN  HD 2</td>
+              <td width="90">312</td>
+              </tr>
+              <tr>
+              <td width="33">84</td>
+              <td width="246">SONY TEN HD 3</td>
+              <td width="90">314</td>
+              </tr>
+              <tr>
+              <td width="33">85</td>
+              <td width="246">SONY SIX HD</td>
+              <td width="90">316</td>
+              </tr>
+              <tr>
+              <td width="33">86</td>
+              <td width="246">STAR SPORTS 3</td>
+              <td width="90">327</td>
+              </tr>
+              <tr>
+              <td width="33">87</td>
+              <td width="246">STAR SPORTS FIRST</td>
+              <td width="90">335</td>
+              </tr>
+              <tr>
+              <td width="33">88</td>
+              <td width="246">EUROSPORT HD</td>
+              <td width="90">336</td>
+              </tr>
+              <tr>
+              <td width="33">89</td>
+              <td width="246">DD SPORTS</td>
+              <td width="90">337</td>
+              </tr>
+              <tr>
+              <td width="33">90</td>
+              <td width="246">SANSKAR</td>
+              <td width="90">350</td>
+              </tr>
+              <tr>
+              <td width="33">91</td>
+              <td width="246">ASTHA BHAJAN</td>
+              <td width="90">351</td>
+              </tr>
+              <tr>
+              <td width="33">92</td>
+              <td width="246">SATSANG</td>
+              <td width="90">352</td>
+              </tr>
+              <tr>
+              <td width="33">93</td>
+              <td width="246">ASTHA TV</td>
+              <td width="90">353</td>
+              </tr>
+              <tr>
+              <td width="33">94</td>
+              <td width="246">VADIC</td>
+              <td width="90">354</td>
+              </tr>
+              <tr>
+              <td width="33">95</td>
+              <td width="246">SARV DHRAM SANGAM</td>
+              <td width="90">355</td>
+              </tr>
+              <tr>
+              <td width="33">96</td>
+              <td width="246">SADHNA</td>
+              <td width="90">356</td>
+              </tr>
+              <tr>
+              <td width="33">97</td>
+              <td width="246">DIVYA</td>
+              <td width="90">358</td>
+              </tr>
+              <tr>
+              <td width="33">98</td>
+              <td width="246">SHARDHA MH ONE</td>
+              <td width="90">359</td>
+              </tr>
+              <tr>
+              <td width="33">99</td>
+              <td width="246">ISWAR VHAKTI</td>
+              <td width="90">360</td>
+              </tr>
+              <tr>
+              <td width="33">100</td>
+              <td width="246">PACE OF MIND</td>
+              <td width="90">361</td>
+              </tr>
+              <tr>
+              <td width="33">101</td>
+              <td width="246">SANSKRITI TV</td>
+              <td width="90">362</td>
+              </tr>
+              <tr>
+              <td width="33">102</td>
+              <td width="246">ANJAN TV</td>
+              <td width="90">363</td>
+              </tr>
+              <tr>
+              <td width="33">103</td>
+              <td width="246">SHUBH TV</td>
+              <td width="90">364</td>
+              </tr>
+              <tr>
+              <td width="33">104</td>
+              <td width="246">Fateh TV</td>
+              <td width="90">365</td>
+              </tr>
+              <tr>
+              <td width="33">105</td>
+              <td width="246">DISHA TV</td>
+              <td width="90">366</td>
+              </tr>
+              <tr>
+              <td width="33">106</td>
+              <td width="246">JINVANI</td>
+              <td width="90">367</td>
+              </tr>
+              <tr>
+              <td width="33">107</td>
+              <td width="246">BHAKTI SAGAR</td>
+              <td width="90">368</td>
+              </tr>
+              <tr>
+              <td width="33">108</td>
+              <td width="246">AASEERVATHAM TV</td>
+              <td width="90">369</td>
+              </tr>
+              <tr>
+              <td width="33">109</td>
+              <td width="246">CHANNELS WIN</td>
+              <td width="90">370</td>
+              </tr>
+              <tr>
+              <td width="33">110</td>
+              <td width="246">SHUBH CINEMA</td>
+              <td width="90">371</td>
+              </tr>
+              <tr>
+              <td width="33">111</td>
+              <td width="246">PTC SIMARN</td>
+              <td width="90">372</td>
+              </tr>
+              <tr>
+              <td width="33">112</td>
+              <td width="246">SANT VANI</td>
+              <td width="90">373</td>
+              </tr>
+              <tr>
+              <td width="33">113</td>
+              <td width="246">CNBC AWAAZ</td>
+              <td width="90">401</td>
+              </tr>
+              <tr>
+              <td width="33">114</td>
+              <td width="246">ZEE NEWS</td>
+              <td width="90">404</td>
+              </tr>
+              <tr>
+              <td width="33">115</td>
+              <td width="246">NEWS 18 INDIA</td>
+              <td width="90">430</td>
+              </tr>
+              <tr>
+              <td width="33">116</td>
+              <td width="246">ZEE HINDUSTAN</td>
+              <td width="90">410</td>
+              </tr>
+              <tr>
+              <td width="33">117</td>
+              <td width="246">AAJTAK HD</td>
+              <td width="90">411</td>
+              </tr>
+              <tr>
+              <td width="33">118</td>
+              <td width="246">ZEE UTTAR PRADESH UTTARAKHAND</td>
+              <td width="90">412</td>
+              </tr>
+              <tr>
+              <td width="33">119</td>
+              <td width="246">ZEE MADHYA PRADESH CHATTISGARH</td>
+              <td width="90">413</td>
+              </tr>
+              <tr>
+              <td width="33">120</td>
+              <td width="246">NEWS 18 UTTAR PRADESH/UTTARAKHAND</td>
+              <td width="90">414</td>
+              </tr>
+              <tr>
+              <td width="33">121</td>
+              <td width="246">NEWS 18 MADHYA PRADESH/CHHATTISGARH</td>
+              <td width="90">416</td>
+              </tr>
+              <tr>
+              <td width="33">122</td>
+              <td width="246">ZEE PUNJAB HARYANA HIMACHAL</td>
+              <td width="90">417</td>
+              </tr>
+              <tr>
+              <td width="33">123</td>
+              <td width="246">GNT</td>
+              <td width="90">418</td>
+              </tr>
+              <tr>
+              <td width="33">124</td>
+              <td width="246">NEWS 18 RAJSTHAN</td>
+              <td width="90">419</td>
+              </tr>
+              <tr>
+              <td width="33">125</td>
+              <td width="246">ZEE SALAAM</td>
+              <td width="90">420</td>
+              </tr>
+              <tr>
+              <td width="33">126</td>
+              <td width="246">ZEE RAJSTHAN</td>
+              <td width="90">421</td>
+              </tr>
+              <tr>
+              <td width="33">127</td>
+              <td width="246">NEWS 18 PUNJAB/HARYANA/HIMACHAL</td>
+              <td width="90">422</td>
+              </tr>
+              <tr>
+              <td width="33">128</td>
+              <td width="246">NEWS 18 URDU</td>
+              <td width="90">423</td>
+              </tr>
+              <tr>
+              <td width="33">129</td>
+              <td width="246">ZEE BIHAR JHARKHAND</td>
+              <td width="90">425</td>
+              </tr>
+              <tr>
+              <td width="33">130</td>
+              <td width="246">ABP NEWS</td>
+              <td width="90">429</td>
+              </tr>
+              <tr>
+              <td width="33">131</td>
+              <td width="246">INDIA TV</td>
+              <td width="90">405</td>
+              </tr>
+              <tr>
+              <td width="33">132</td>
+              <td width="246">REPUBLIC BHARAT TV</td>
+              <td width="90">432</td>
+              </tr>
+              <tr>
+              <td width="33">133</td>
+              <td width="246">NEWS NATION</td>
+              <td width="90">433</td>
+              </tr>
+              <tr>
+              <td width="33">134</td>
+              <td width="246">TV9 BHARATVARSH</td>
+              <td width="90">434</td>
+              </tr>
+              <tr>
+              <td width="33">135</td>
+              <td width="246">KHABAR FAST</td>
+              <td width="90">435</td>
+              </tr>
+              <tr>
+              <td width="33">136</td>
+              <td width="246">ZEE 24 KALAK</td>
+              <td width="90">436</td>
+              </tr>
+              <tr>
+              <td width="33">137</td>
+              <td width="246">PTC NEWS</td>
+              <td width="90">437</td>
+              </tr>
+              <tr>
+              <td width="33">138</td>
+              <td width="246">KHABREIN ABHI TAK</td>
+              <td width="90">438</td>
+              </tr>
+              <tr>
+              <td width="33">139</td>
+              <td width="246">NEWS 18 BIHAR/JHAKHAND</td>
+              <td width="90">439</td>
+              </tr>
+              <tr>
+              <td width="33">140</td>
+              <td width="246">HINDI KHABAR</td>
+              <td width="90">440</td>
+              </tr>
+              <tr>
+              <td width="33">141</td>
+              <td width="246">DD NEWS</td>
+              <td width="90">441</td>
+              </tr>
+              <tr>
+              <td width="33">142</td>
+              <td width="246">INDIA NEWS</td>
+              <td width="90">442</td>
+              </tr>
+              <tr>
+              <td width="33">143</td>
+              <td width="246">IND 24</td>
+              <td width="90">443</td>
+              </tr>
+              <tr>
+              <td width="33">144</td>
+              <td width="246">NDTV INDIA</td>
+              <td width="90">445</td>
+              </tr>
+              <tr>
+              <td width="33">145</td>
+              <td width="246">NEWS 24</td>
+              <td width="90">446</td>
+              </tr>
+              <tr>
+              <td width="33">146</td>
+              <td width="246">BANSAL NEWS</td>
+              <td width="90">447</td>
+              </tr>
+              <tr>
+              <td width="33">147</td>
+              <td width="246">JAN TV</td>
+              <td width="90">448</td>
+              </tr>
+              <tr>
+              <td width="33">148</td>
+              <td width="246">PRADHIN TIME</td>
+              <td width="90">449</td>
+              </tr>
+              <tr>
+              <td width="33">149</td>
+              <td width="246">NEWS STATE UTTAR PRADESH</td>
+              <td width="90">450</td>
+              </tr>
+              <tr>
+              <td width="33">150</td>
+              <td width="246">INDIA NEWS HARYANA</td>
+              <td width="90">451</td>
+              </tr>
+              <tr>
+              <td width="33">151</td>
+              <td width="246">INDIA NEWS RAJSTHAN</td>
+              <td width="90">452</td>
+              </tr>
+              <tr>
+              <td width="33">152</td>
+              <td width="246">INDIA NEWS MADHYA PRADESH</td>
+              <td width="90">453</td>
+              </tr>
+              <tr>
+              <td width="33">153</td>
+              <td width="246">INDIA NEWS PUNJAB HARYANA</td>
+              <td width="90">454</td>
+              </tr>
+              <tr>
+              <td width="33">154</td>
+              <td width="246">MH ONE NEWS</td>
+              <td width="90">455</td>
+              </tr>
+              <tr>
+              <td width="33">155</td>
+              <td width="246">INDIA NEWS UTTAR PRADESH</td>
+              <td width="90">456</td>
+              </tr>
+              <tr>
+              <td width="33">156</td>
+              <td width="246">SANDESH NEWS</td>
+              <td width="90">458</td>
+              </tr>
+              <tr>
+              <td width="33">157</td>
+              <td width="246">NEWS X</td>
+              <td width="90">460</td>
+              </tr>
+              <tr>
+              <td width="33">158</td>
+              <td width="246">SHUDARSAN NEWS</td>
+              <td width="90">461</td>
+              </tr>
+              <tr>
+              <td width="33">159</td>
+              <td width="246">DD INDIA HD</td>
+              <td width="90">462</td>
+              </tr>
+              <tr>
+              <td width="33">160</td>
+              <td width="246">SANSAD TV HD</td>
+              <td width="90">463</td>
+              </tr>
+              <tr>
+              <td width="33">161</td>
+              <td width="246">DD URDU</td>
+              <td width="90">464</td>
+              </tr>
+              <tr>
+              <td width="33">162</td>
+              <td width="246">DD TAMIL NANDU</td>
+              <td width="90">465</td>
+              </tr>
+              <tr>
+              <td width="33">163</td>
+              <td width="246">DD TELANGNA</td>
+              <td width="90">466</td>
+              </tr>
+              <tr>
+              <td width="33">164</td>
+              <td width="246">DD KERLA</td>
+              <td width="90">469</td>
+              </tr>
+              <tr>
+              <td width="33">165</td>
+              <td width="246">DD UTTAR PRADESH</td>
+              <td width="90">470</td>
+              </tr>
+              <tr>
+              <td width="33">166</td>
+              <td width="246">DD BANGLA</td>
+              <td width="90">471</td>
+              </tr>
+              <tr>
+              <td width="33">167</td>
+              <td width="246">INH 24*7</td>
+              <td width="90">472</td>
+              </tr>
+              <tr>
+              <td width="33">168</td>
+              <td width="246">ND NEWS 24</td>
+              <td width="90">473</td>
+              </tr>
+              <tr>
+              <td width="33">169</td>
+              <td width="246">DD RAJSTHAN</td>
+              <td width="90">475</td>
+              </tr>
+              <tr>
+              <td width="33">170</td>
+              <td width="246">DD KARNATKA</td>
+              <td width="90">476</td>
+              </tr>
+              <tr>
+              <td width="33">171</td>
+              <td width="246">DD KASHIR</td>
+              <td width="90">478</td>
+              </tr>
+              <tr>
+              <td width="33">172</td>
+              <td width="246">DD BIHAR</td>
+              <td width="90">481</td>
+              </tr>
+              <tr>
+              <td width="33">173</td>
+              <td width="246">MAHAA NEWS&#8217;</td>
+              <td width="90">482</td>
+              </tr>
+              <tr>
+              <td width="33">174</td>
+              <td width="246">BHARAT SAMACHAR</td>
+              <td width="90">484</td>
+              </tr>
+              <tr>
+              <td width="33">175</td>
+              <td width="246">NEWS 11 BHARAT</td>
+              <td width="90">485</td>
+              </tr>
+              <tr>
+              <td width="33">176</td>
+              <td width="246">NEWS STATE UTTAR  PRADESH</td>
+              <td width="90">487</td>
+              </tr>
+              <tr>
+              <td width="33">177</td>
+              <td width="246">MKN</td>
+              <td width="90">489</td>
+              </tr>
+              <tr>
+              <td width="33">178</td>
+              <td width="246">NAXATRA NEWS</td>
+              <td width="90">493</td>
+              </tr>
+              <tr>
+              <td width="33">179</td>
+              <td width="246">NEWS 18 ASSAM/NORTH EAST</td>
+              <td width="90">494</td>
+              </tr>
+              <tr>
+              <td width="33">180</td>
+              <td width="246">ABP GANGA</td>
+              <td width="90">495</td>
+              </tr>
+              <tr>
+              <td width="33">181</td>
+              <td width="246">CNBC TV 18</td>
+              <td width="90">513</td>
+              </tr>
+              <tr>
+              <td width="33">182</td>
+              <td width="246">CNN NEWS 18</td>
+              <td width="90">523</td>
+              </tr>
+              <tr>
+              <td width="33">183</td>
+              <td width="246">CNN NEWS</td>
+              <td width="90">527</td>
+              </tr>
+              <tr>
+              <td width="33">184</td>
+              <td width="246">INDIA TODAY</td>
+              <td width="90">530</td>
+              </tr>
+              <tr>
+              <td width="33">185</td>
+              <td width="246">ALJAZEERA HD</td>
+              <td width="90">531</td>
+              </tr>
+              <tr>
+              <td width="33">186</td>
+              <td width="246">REPUBLIC TV</td>
+              <td width="90">532</td>
+              </tr>
+              <tr>
+              <td width="33">187</td>
+              <td width="246">SAHARA NCR</td>
+              <td width="90">533</td>
+              </tr>
+              <tr>
+              <td width="33">188</td>
+              <td width="246">SAHARA NET</td>
+              <td width="90">534</td>
+              </tr>
+              <tr>
+              <td width="33">189</td>
+              <td width="246">TRT WORLD HD</td>
+              <td width="90">546</td>
+              </tr>
+              <tr>
+              <td width="33">190</td>
+              <td width="246">NHK WORLD JAPAN HD</td>
+              <td width="90">548</td>
+              </tr>
+              <tr>
+              <td width="33">191</td>
+              <td width="246">DW TV HD</td>
+              <td width="90">551</td>
+              </tr>
+              <tr>
+              <td width="33">192</td>
+              <td width="246">FOX LIFE HD</td>
+              <td width="90">601</td>
+              </tr>
+              <tr>
+              <td width="33">193</td>
+              <td width="246">LIVING FOOD HD</td>
+              <td width="90">602</td>
+              </tr>
+              <tr>
+              <td width="33">194</td>
+              <td width="246">NATIONAL GEOGRAPHIC HD</td>
+              <td width="90">604</td>
+              </tr>
+              <tr>
+              <td width="33">195</td>
+              <td width="246">SONY BBC EARTH HD</td>
+              <td width="90">608</td>
+              </tr>
+              <tr>
+              <td width="33">196</td>
+              <td width="246">NAT GEO WILD HD</td>
+              <td width="90">609</td>
+              </tr>
+              <tr>
+              <td width="33">197</td>
+              <td width="246">HISTORY TV18 HD</td>
+              <td width="90">610</td>
+              </tr>
+              <tr>
+              <td width="33">198</td>
+              <td width="246">DISCOVERY HD WORLD</td>
+              <td width="90">611</td>
+              </tr>
+              <tr>
+              <td width="33">199</td>
+              <td width="246">ANIMAL PLANET HD</td>
+              <td width="90">612</td>
+              </tr>
+              <tr>
+              <td width="33">200</td>
+              <td width="246">FASHION TV HD</td>
+              <td width="90">614</td>
+              </tr>
+              <tr>
+              <td width="33">201</td>
+              <td width="246">FOOD FOOD</td>
+              <td width="90">624</td>
+              </tr>
+              <tr>
+              <td width="33">202</td>
+              <td width="246">NICK HD</td>
+              <td width="90">625</td>
+              </tr>
+              <tr>
+              <td width="33">203</td>
+              <td width="246">DISNEY CHANNELS</td>
+              <td width="90">626</td>
+              </tr>
+              <tr>
+              <td width="33">204</td>
+              <td width="246">BABY TV HD</td>
+              <td width="90">628</td>
+              </tr>
+              <tr>
+              <td width="33">205</td>
+              <td width="246">GUBBARE</td>
+              <td width="90">629</td>
+              </tr>
+              <tr>
+              <td width="33">206</td>
+              <td width="246">SONY YAH</td>
+              <td width="90">630</td>
+              </tr>
+              <tr>
+              <td width="33">207</td>
+              <td width="246">HUNGAMA</td>
+              <td width="90">632</td>
+              </tr>
+              <tr>
+              <td width="33">208</td>
+              <td width="246">MARVEL HQ</td>
+              <td width="90">633</td>
+              </tr>
+              <tr>
+              <td width="33">209</td>
+              <td width="246">SONIC</td>
+              <td width="90">634</td>
+              </tr>
+              <tr>
+              <td width="33">210</td>
+              <td width="246">DOSCOVERY KIDS</td>
+              <td width="90">635</td>
+              </tr>
+              <tr>
+              <td width="33">211</td>
+              <td width="246">NICK JR.</td>
+              <td width="90">636</td>
+              </tr>
+              <tr>
+              <td width="33">212</td>
+              <td width="246">DISNEY JR.</td>
+              <td width="90">637</td>
+              </tr>
+              <tr>
+              <td width="33">213</td>
+              <td width="246">POGO</td>
+              <td width="90">639</td>
+              </tr>
+              <tr>
+              <td width="33">214</td>
+              <td width="246">STAR WORLD HD</td>
+              <td width="90">653</td>
+              </tr>
+              <tr>
+              <td width="33">215</td>
+              <td width="246">DISCOVERY ID HD</td>
+              <td width="90">657</td>
+              </tr>
+              <tr>
+              <td width="33">216</td>
+              <td width="246">STAR MOVIES HD</td>
+              <td width="90">670</td>
+              </tr>
+              <tr>
+              <td width="33">217</td>
+              <td width="246">SONY PIX HD</td>
+              <td width="90">672</td>
+              </tr>
+              <tr>
+              <td width="33">218</td>
+              <td width="246">STAR MOVIES SALECT HD</td>
+              <td width="90">674</td>
+              </tr>
+              <tr>
+              <td width="33">219</td>
+              <td width="246">SONY AATH</td>
+              <td width="90">690</td>
+              </tr>
+              <tr>
+              <td width="33">220</td>
+              <td width="246">SONY MARATHI</td>
+              <td width="90">691</td>
+              </tr>
+              <tr>
+              <td width="33">221</td>
+              <td width="246">ABP ANANDA</td>
+              <td width="90">693</td>
+              </tr>
+              <tr>
+              <td width="33">222</td>
+              <td width="246">TV 9 TELGU</td>
+              <td width="90">694</td>
+              </tr>
+              <tr>
+              <td width="33">223</td>
+              <td width="246">TLC WORLD HD</td>
+              <td width="90">695</td>
+              </tr>
+              <tr>
+              <td width="33">224</td>
+              <td width="246">EPIC</td>
+              <td width="90">696</td>
+              </tr>
+              <tr>
+              <td width="33">225</td>
+              <td width="246">DISCOVERY SCIENCE</td>
+              <td width="90">697</td>
+              </tr>
+              <tr>
+              <td width="33">226</td>
+              <td width="246">DISCOVERY TURBO</td>
+              <td width="90">698</td>
+              </tr>
+              <tr>
+              <td width="33">227</td>
+              <td width="246">B4U BHOJPURI</td>
+              <td width="90">700</td>
+              </tr>
+              <tr>
+              <td width="33">228</td>
+              <td width="246">DD GUJRATI</td>
+              <td width="90">701</td>
+              </tr>
+              <tr>
+              <td width="33">229</td>
+              <td width="246">DD MP</td>
+              <td width="90">702</td>
+              </tr>
+              <tr>
+              <td width="33">230</td>
+              <td width="246">DD ANDRA PREDEH</td>
+              <td width="90">703</td>
+              </tr>
+              <tr>
+              <td width="33">231</td>
+              <td width="246">TV9 MARATHI</td>
+              <td width="90">704</td>
+              </tr>
+              <tr>
+              <td width="33">232</td>
+              <td width="246">ABP MAJHA</td>
+              <td width="90">708</td>
+              </tr>
+              <tr>
+              <td width="33">233</td>
+              <td width="246">CHADIKLA TIME TV</td>
+              <td width="90">709</td>
+              </tr>
+              <tr>
+              <td width="33">234</td>
+              <td width="246">EZ MALL</td>
+              <td width="90">710</td>
+              </tr>
+              <tr>
+              <td width="33">235</td>
+              <td width="246">ARGUS</td>
+              <td width="90">711</td>
+              </tr>
+              <tr>
+              <td width="33">236</td>
+              <td width="246">BADAKHABAR</td>
+              <td width="90">712</td>
+              </tr>
+              <tr>
+              <td width="33">237</td>
+              <td width="246">PARAS TV</td>
+              <td width="90">713</td>
+              </tr>
+              <tr>
+              <td width="33">238</td>
+              <td width="246">CAPTAIN TV</td>
+              <td width="90">714</td>
+              </tr>
+              <tr>
+              <td width="33">239</td>
+              <td width="246">MAKKAL TV</td>
+              <td width="90">715</td>
+              </tr>
+              <tr>
+              <td width="33">240</td>
+              <td width="246">VASANTH TV</td>
+              <td width="90">716</td>
+              </tr>
+              <tr>
+              <td width="33">241</td>
+              <td width="246">POLIMER NEWS</td>
+              <td width="90">718</td>
+              </tr>
+              <tr>
+              <td width="33">242</td>
+              <td width="246">GYAN DARSHAN 1</td>
+              <td width="90">726</td>
+              </tr>
+              <tr>
+              <td width="33">243</td>
+              <td width="246">LOKSAHI MARATHI</td>
+              <td width="90">750</td>
+              </tr>
+              <tr>
+              <td width="33">244</td>
+              <td width="246">KALINGA TV</td>
+              <td width="90">992</td>
+              </tr>
+              <tr>
+              <td width="33">245</td>
+              <td width="246">NANDIGHOSH TV</td>
+              <td width="90">993</td>
+              </tr>
+              <tr>
+              <td width="33">246</td>
+              <td width="246">DD ODIA</td>
+              <td width="90">994</td>
+              </tr>
+              <tr>
+              <td width="33">247</td>
+              <td width="246">Sports 18</td>
+              <td width="90">995</td>
+              </tr>
+              <tr>
+              <td width="33">248</td>
+              <td width="246">SAAM TV</td>
+              <td width="90">997</td>
+              </tr>
+              </tbody>
             
-        </diV>
+          </table>
+      </div>
 
-        <div class="toolbox-action-btn">
-            <div class="add-btn"> <i class="fa-solid fa-plus"></i> </div>
-            <div class="remove-btn"> <i class="fa-solid fa-xmark"></i> </div>
-        </div>
-    </div>
+  </div>
 
-    <!-- Todo Box inside this container all my ticket will be attached -->
-    <div class="main-cont"></div>
-
-    <!-- Modal Container -->
-    <div class="modal">
-        <textarea class="textarea-cont" placeholder="Enter Your Task" maxlength="120"> </textarea>
-        <div class="priority-color">
-            <div class="lightpink pcolor"></div>
-            <div class="lightgreen pcolor"></div>
-            <div class="lightblue pcolor"></div>
-            <div class="black pcolor active"></div>
-            <div class="save-content"> Save </div>
-        </div>
-        <!-- <div class="save-content">Save</div> -->
-
-
-        
-
-    </div>
-
-
-    <!-- ticket container -->
-    <!-- <div class="ticket-cont">
-        <div class="ticket-color"></div>
-        <div class="ticket-id"></div>
-        <div class="task-area"></div>
-         <div class="ticket-lock"> <i class="fa-solid fa-lock"></i> </div>
-    </div> -->
-
-    <!-- unpkg cdnlink -->
-    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
-    <script src="./script.js"></script>
-  
+    
 </body>
-
 </html>
